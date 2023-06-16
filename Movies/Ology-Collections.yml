@@ -1,6 +1,6 @@
 templates:
   Github:
-    poster_url: https://raw.githubusercontent.com/MrRobotjs/PMM-Configs/main/<<git_url>>
+    url_poster: https://raw.githubusercontent.com/MrRobotjs/PMM-Configs/main/<<git_url>>
 
 collections:
 #####################################
@@ -55,3 +55,27 @@ collections:
     summary:
       |
       A collection of all Star War Films.
+
+  The Hobbit:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Middle-Earth/The%20Hobbit/poster.png }
+    plex_search:
+      any:
+        title:
+          - The Hobbit
+
+  The Lord of the Rings:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Middle-Earth/The%20Lord%20of%20The%20Rings/poster.png }
+    plex_search:
+      any:
+        title:
+          - "The Lord of the Rings:"
+
+  Middle-Earth:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Middle-Earth/poster.png }
+    smart_label: release.asc
+    collection_mode: hide
+    plex_search:
+      any:
+        title:
+          - "The Lord of the Rings:"
+          - The Hobbit
