@@ -22,7 +22,8 @@ metadata:
       FAN EDIT CREATED BY "LadPrime" (YouTuber). LadPrime's Notes: What if "Mewtwo Strikes Back Evolution" featured the classic original dub and music of "Pokémon: The First Movie"? This fan edit brings the animation of the new film together with the audio of the beloved original.
       After a scientific experiment leads to the creation of a clone of Mewtwo, he sets out to destroy the world. Ash and his friends then decide to thwart Mewtwo's evil plans.
   A New Hope OTD77:
-    title: A New Hope
+    title: "Star Wars: Episode IV - A New Hope"
+    alt_title: "A New Hope"
     year: 1977
     edition_filter: OTD77 v2.4
     summary:
@@ -51,7 +52,8 @@ metadata:
       6) Team Negative1 35mm "Silver Screen Edition" LPP print scan 
       7) Puggo Grande (1977 16mm print transfer)
   A New Hope Respecialized:
-    title: A New Hope
+    title: "Star Wars: Episode IV - A New Hope"
+    alt_title: "A New Hope"
     year: 1977
     edition_filter: Respecialized
     summary:
@@ -76,7 +78,8 @@ metadata:
       Star Wars Technicolor Grindhouse Edition (LPP Reel 1 with Laserdisc audio, Technicolor Reels 2 - 6 with optical Audio, no cleanup).
       https://forums.thestarwarstrilogy.com/threads/star-wars-technicolor-grindhouse-edition.63/page-2#post-7691
   The Empire Strikes Back Descpecialized:
-    title: The Empire Strikes Back
+    title: "Star Wars: Episode V - The Empire Strikes Back"
+    alt_title: "The Empire Strikes Back"
     year: 1980
     edition_filter: Despecialized v2.0
     summary:
@@ -93,7 +96,8 @@ metadata:
       8) Puggo Strikes Back (16mm print transfer)
       A gallery showing all the changes can be found here: https://plus.google.com/u/1/photos/109609428403596349302/albums/6044645069501365185
   The Empire Strikes Back OTD80:
-    title: The Empire Strikes Back
+    title: "Star Wars: Episode V - The Empire Strikes Back"
+    alt_title: "The Empire Strikes Back"
     year: 1980
     edition_filter: OTD80 v2.43
     summary:
@@ -122,7 +126,8 @@ metadata:
       8) Puggo Strikes Back (16mm print transfer)
       A gallery showing all the changes can be found here: https://plus.google.com/u/1/photos/109609428403596349302/albums/6044645069501365185
   Return of the Jedi OTD83:
-    title: Return of the Jedi
+    title: "Star Wars: Episode VI - Return of the Jedi"
+    alt_title: Return of the Jedi
     year: 1983
     edition_filter: OTD83 v1.2
     summary:
@@ -135,7 +140,8 @@ metadata:
       Stuff NOT restored: The shot of Boba Fett flying through the air is left SE. The original just looks bad. -There is one shot that has three frames of blinking Ewok eyes. It's barely noticeable. Harmy's list of SE changes doesn't even mention it. -Anakin doesn't have eyebrows here. He looks better without them anyway. The main reason for not restoring them is the drop in visual quality that would go along with restoring all the shots. -There are a few re-composited shots that are slightly different. They are much higher quality in the UHD BR. The re-composites don't change the original feel of the shots and most people would never know a difference without direct comparison to the original.
       https://forums.thestarwarstrilogy.com/threads/otd83-theatrical-reconstruction-of-jedi-using-the-uhd-br.713/page-7#post-30693
   Return of the Jedi Despecialized:
-    title: Return of the Jedi
+    title: "Star Wars: Episode VI - Return of the Jedi"
+    alt_title: Return of the Jedi
     year: 1983
     edition_filter: Despecialized v2.5
     summary:
