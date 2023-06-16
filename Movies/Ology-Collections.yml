@@ -19,7 +19,7 @@ collections:
       edition: 35mm
 
   Star Wars Harmy's De/Re Specialized:
-    template: { name: Github, git_url: Movies/Collection%20Posters/Star%20Wars/poster.png }
+    template: { name: Github, git_url: Movies/Collection%20Posters/Star%20Wars/Star%20Wars%20Harmy's%20DeRe%20Specialized/poster.png }
     plex_search:
       any:
         title: 
@@ -39,6 +39,7 @@ collections:
       Also included is a Grindhouse 35mm Edition for Return of The Jedi, a high quality scan of the 1983 35mm LPP print. Special thanks to Poita. This is a Grindouse release, meaning only basic color correction has been done and nothing else, so it's shaky with lots of grain, dirt and scratches, but for those who enjoy that grindhouse theater experience, it should serve very well.
 
   Star Wars:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Star%20Wars/poster.png }
     plex_search:
       any:
         title: 
