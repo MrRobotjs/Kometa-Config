@@ -18,7 +18,7 @@ collections:
     filters:
       edition: 35mm
 
-  Star Wars Harmy's De/Re Specialized:
+  "Star Wars Harmy's De/Re Specialized":
     template: { name: Github, git_url: Movies/Collection%20Posters/Star%20Wars/Star%20Wars%20Harmy's%20DeRe%20Specialized/poster.png }
     plex_search:
       any:
@@ -58,24 +58,27 @@ collections:
 
   The Hobbit:
     template: { name: Github, git_url: Movies/Collection%20Posters/Middle-Earth/The%20Hobbit/poster.png }
-    plex_search:
-      any:
-        title:
-          - The Hobbit
+    imdb_id: 
+      - tt0903624 #The Hobbit: An Unexpected Journey
+      - tt1170358 #The Hobbit: The Desolation of Smaug
+      - tt2310332 #The Hobbit: The Battle of the Five Armies
 
   The Lord of the Rings:
     template: { name: Github, git_url: Movies/Collection%20Posters/Middle-Earth/The%20Lord%20of%20The%20Rings/poster.png }
-    plex_search:
-      any:
-        title:
-          - "The Lord of the Rings:"
+    imdb_id:
+      - tt0077869 #The Lord of the Rings (Animation)
+      - tt0120737 #The Lord of the Rings: The Fellowship of the Ring
+      - tt0167260 #The Lord of the Rings: The Return of the King
+      - tt0167261 #The Lord of the Rings: The Two Towers
 
   Middle-Earth:
     template: { name: Github, git_url: Movies/Collection%20Posters/Middle-Earth/poster.png }
     smart_label: release.asc
     collection_mode: hide
-    plex_search:
-      any:
-        title:
-          - "The Lord of the Rings:"
-          - The Hobbit
+    imdb_id:
+      - tt0903624 #The Hobbit: An Unexpected Journey
+      - tt1170358 #The Hobbit: The Desolation of Smaug
+      - tt2310332 #The Hobbit: The Battle of the Five Armies
+      - tt0120737 #The Lord of the Rings: The Fellowship of the Ring
+      - tt0167260 #The Lord of the Rings: The Return of the King
+      - tt0167261 #The Lord of the Rings: The Two Towers
