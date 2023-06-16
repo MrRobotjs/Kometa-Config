@@ -89,3 +89,15 @@ collections:
       - tt0317219 #Cars
       - tt1216475 #Cars 2
       - tt3606752 #Cars 3
+
+  Harry Potter:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Harry%20Potter/poster.jpeg }
+    imdb_id:
+      - tt0241527 #Harry Potter and the Sorcerer's Stone
+      - tt0295297 #Harry Potter and the Chamber of Secrets
+      - tt0304141 #Harry Potter and the Prisoner of Azkaban
+      - tt0330373 #Harry Potter and the Goblet of Fire
+      - tt0373889 #Harry Potter and the Order of the Phoenix
+      - tt0417741 #Harry Potter and the Half-Blood Prince
+      - tt0926084 #Harry Potter and the Deathly Hallows: Part 1
+      - tt1201607 #Harry Potter and the Deathly Hallows: Part 2
