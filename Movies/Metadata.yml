@@ -1,0 +1,171 @@
+#####################################
+#              Metadata             #
+#####################################
+
+metadata:
+  "Alita: Battle Angel":
+    title: "Alita: Battle Angel"
+    year: 2019
+    edition_filter: Open Matte
+    summary:
+      |
+      KK650 Encoder Notes: This V4 release uses a much higher quality video source than the first Open Matte release.
+      Sadly the 3D release of Alita Battle Angel did not come with any opened up IMAX scenes so for this V4 release I have used a new high quality Open Matte stream, that has more image on the top and bottom compared to the 2160p WEB-DL, as the main source of this release. This Open Matte release is now my go to for when I want to watch this great film.
+
+      When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.
+  "Pokemon the Movie: Mewtwo Strikes Back - Evolution":
+    title: "Pokemon the Movie: Mewtwo Strikes Back - Evolution"
+    year: 2019
+    edition_filter: 98 Fan Edit
+    summary:
+      |
+      FAN EDIT CREATED BY "LadPrime" (YouTuber). LadPrime's Notes: What if "Mewtwo Strikes Back Evolution" featured the classic original dub and music of "Pokémon: The First Movie"? This fan edit brings the animation of the new film together with the audio of the beloved original.
+      After a scientific experiment leads to the creation of a clone of Mewtwo, he sets out to destroy the world. Ash and his friends then decide to thwart Mewtwo's evil plans.
+  A New Hope OTD77:
+    title: A New Hope
+    year: 1977
+    edition_filter: OTD77 v2.4
+    summary:
+      |
+      This is theatrical but not completely theatrical...restored most of the original 1977 shots of the film, removing almost all of the CGI and other unnecessary changes. Quality over authenticity. Keeping it as theatrical as possible, but willing to sacrifice some authenticity for quality sake so some creative license was used in the process. It's theatrical in spirit.
+      This is not a pure theatrical reconstruction. This is not a new Despecialized. This is D+77/OTD77 (oohteedee).
+      Sources: The 2160p UHD BluRay was used as the primary source for this project. The DNR of 4k77 shots are used to restore original shots where needed. Many shots used the same RAW anamorphic scan that was used to make 4K77. A shot from another Technicolor print was used as well. A few shots were provided by SkyDude for this project.
+      Audio: Muxed in the English stereo (hairy_hen's 70mm 2.0 v3), 5.1 (hairy_hen's 70mm 5.1 v3 DTS-MA) and mono (DTS-MA audio track from 4K77 v1.4) tracks but used ac3 files (converted) instead of the DTS-MA files. Too many people have issues playing the DTS-MA tracks so it's more accommodating this way. The audio in this version is NTSC GOUT synced. Would have preferred it to be theatrically synced but no properly synced audio was available in time for this. Audio from any 4K77 or Despecialized version will work with this project.
+      Colour: The original HDR grade took advantage of the wider colour gamut. Since working in SDR, rec.709, HDR grade was tamed. What this means is areas that lacked saturation have been boosted but areas that would have gotten oversaturated with that change have been scaled back. Other colour tweaks were used to make it the best. Colour is - HDR tonemapped with a LUT provided by age - final colour using only curves (sat-vs-sat, luma-vs-sat, hue-vs-sat, and standard RGB curves). Colour is loosely based on a colour correction by DrDre.
+      https://forums.thestarwarstrilogy.com/threads/d-77-theatrical-reconstruction-using-disney-v1-x-uhd-br-v2-x.342/
+      PS: Was encoded again from 31.2GB down to 18.6GB by Polybius using Handbrake, settings are in json within same folder.
+  A New Hope Despecialized:
+    title: "A New Hope"
+    alt_title: "Star Wars: Episode IV - A New Hope"
+    year: 1977
+    edition_filter: Despecialized v2.7
+    summary:
+      |
+      This is a reconstruction of the 1977 theatrical version of STAR WARS. The original shots were painstakingly restored using various sources (listed below) and the film received an extensive shot by shot colour correction based on a fade free 1977 I.B. Technicolor Print. 
+      Sources:
+      1) STAR WARS Episode IV A New Hope Official Blu-Ray 2011 (Preliminary colour correction by You_Too)
+      2) STAR WARS 2006 Bonus DVD (sourced from the 1993 Definitive Edition Laser Disc Master - upscales by Dark Jedi, You_Too and Harmy)
+      3) Star.Wars.Episode.IV.A.New.Hope.1977.720p.HDTV.x264-DON (2004 DVD Version)
+      4) STAR WARS 1997 Special Edition (Reivax DTV capture)
+      5) Custom mattes, 35mm and 70mm film cell scans etc.
+      6) Team Negative1 35mm "Silver Screen Edition" LPP print scan 
+      7) Puggo Grande (1977 16mm print transfer)
+  A New Hope Respecialized:
+    title: A New Hope
+    year: 1977
+    edition_filter: Respecialized
+    summary:
+      |
+      This is a reconstruction of the 1997 Special Edition version of STAR WARS, which was shown in cinemas world wide and had fewer alterations than the 2004 DVD version and fewer still than the BD version. Plus it didn’t have screwed up colors and by all accounts it had a pretty awesome sound mix (unlike the screwed up DVD and BD mixes) which we now have in the highest quality as heard in cinemas in 1997. This is a little side project to the Despecialized Edition - it uses the Despecialized Edition v2.5 master as its main video source and puts the changes made in 1997 back in, mostly using the Blu-Ray version and in case of 1997 changes, which were redone in later versions, this version combines the BD footage with Team Blu's (Dark Jedi and You_Too) 1997 version. The colour correction is still based on a fade free 1977 I.B. Technicolor Print, just as the 1997 version supposedly was. The forced subtitles in the Greedo scene were left the same as in v2.5 and the subtitles in the Jabba scene (along with the rest of the 1997 elements of the footage were used from the Team Blu version).
+      Sources:
+      1) STAR WARS Despecialized Edition v2.5
+      2) STAR WARS Episode IV A New Hope Official Blu-Ray 2011 (Preliminary colour correction by You_Too)
+      3) Star.Wars.Episode.IV.A.New.Hope.1977.720p.HDTV.x264-DON (2004 DVD Version)
+      4) STAR WARS 2006 Bonus DVD (sourced from the 1993 Definitive Edition Laser Disc Master - upscales by Dark Jedi, You_Too and Harmy)
+      5) STAR WARS 1997 Special Edition (Reivax DTV capture)
+      6) STAR WARS 1997 Special Edition (Team Blu version)
+      7) Custom mattes, film-cell scans etc.
+      8) Puggo Grande (1977 16mm print transfer)
+      https://originaltrilogy.com/topic/Harmys-STAR-WARS-Respecialized-Edition-97-AVCHD-and-MKV-Released/id/16682
+  A New Hope 35mm:
+    title: A New Hope
+    year: 1977
+    edition_filter: TN1 35mm
+    summary:
+      |
+      Star Wars Technicolor Grindhouse Edition (LPP Reel 1 with Laserdisc audio, Technicolor Reels 2 - 6 with optical Audio, no cleanup).
+      https://forums.thestarwarstrilogy.com/threads/star-wars-technicolor-grindhouse-edition.63/page-2#post-7691
+  The Empire Strikes Back Descpecialized:
+    title: The Empire Strikes Back
+    year: 1980
+    edition_filter: Despecialized v2.0
+    summary:
+      |
+      This is a reconstruction of the 1980 theatrical version of The Empire Strikes Back. The original shots were painstakingly restored using various sources (listed below) and the film received an extensive shot by shot colour correction. The remastered version (v2.0) represents a significant improvement in picture quality over the earlier 1.0 version due to the use of better encoding and higher quality sources and replacing many of the despecialized shots with higher quality ones.
+      Sources:
+      1) STAR WARS Episode V The Empire Strikes Back Official Blu-Ray 2011
+      2) STAR WARS Episode V The Empire Strikes Back 2006 Bonus DVD (sourced from the 1993 Definitive Edition Laser Disc Master - upscale by Mattman Omega)
+      3) Adywan's THE EMPIRE STRIKES BACK 1997 Special Edition Reconstruction 1080p MKV (HDTV source)
+      4) The Empire Strikes Back 1997 Special Edition ("TB" DTV capture)
+      5) Team Negative1 35mm print scan
+      6) Custom mattes, 35mm film cell scans etc.
+      7) Adywan's THE EMPIRE STRIKES BACK 1980 Theatrical Reconstruction NTSC DVD
+      8) Puggo Strikes Back (16mm print transfer)
+      A gallery showing all the changes can be found here: https://plus.google.com/u/1/photos/109609428403596349302/albums/6044645069501365185
+  The Empire Strikes Back OTD80:
+    title: The Empire Strikes Back
+    year: 1980
+    edition_filter: OTD80 v2.43
+    summary:
+      |
+      This is theatrical but not completely theatrical...Quality over authenticity. Keeping it as theatrical as possible, but willing to sacrifice some authenticity for quality sake so some creative license was used in the process. It's theatrical in spirit.
+      This is not a pure theatrical reconstruction. This is not a new Despecialized. This is D+80/OTD80 (oohteedee).
+      Sources: The 2160p UHD BluRay was used as the primary source for this project. Two 35mm theatrical prints were used to restore original shots where needed. All scanned and cleaned in 4k at 16bit.
+      Audio: This version is not NTSC GOUT synced. Two frames at the end of reel 5 are added back in. It is now essentially PAL GOUT synced but timed to 23.976 fps. Those two frames were present in theatres in 1980 and belong in the film. This is how the film should be viewed, in it's entirety. This version has the full theatrical audio restored for this by schorman and hairy_hen. If you have alternate language audio it should work fine since the lips don't match the words anyway. Please don't try to NTSC GOUT sync this movie. Instead re-sync the audio you have and shared it back to the community. It's time to abandon the flawed GOUT standard and keep the film as it was made, as it was seen in 1980 and how this film should only be viewed, in it's original glorious entirety. It's time to readopt the original theatrical standard like 4K83 did. 5.1 audio track mastered and theatrically synced by hairy_hen for this release. Other audio tracks newly mastered and theatrically synced by schorman for this release.
+      Colour: The original HDR grade took advantage of the wider colour gamut. Since working in SDR, rec.709, HDR grade was tamed. What this means is areas that lacked saturation have been boosted but areas that would have gotten oversaturated with that change have been scaled back. Other colour tweaks were used to make it the best. Colour is - HDR tonemapped with a LUT provided by age - final colour using only curves (sat-vs-sat, luma-vs-sat, hue-vs-sat, and standard RGB curves). Thanks to Nate D for colour and contrast advise.
+      https://forums.thestarwarstrilogy.com/threads/d-80-theatrical-reconstruction-using-disney-v1-x-uhd-br-v2-x.359/page-36#post-42958
+  The Empire Strikes Back 35mm:
+    title: The Empire Strikes Back
+    year: 1980
+    edition_filter: TN1 35mm
+    summary:
+      |
+      This is a reconstruction of the 1980 theatrical version of The Empire Strikes Back. The original shots were painstakingly restored using various sources (listed below) and the film received an extensive shot by shot colour correction. The remastered version (v2.0) represents a significant improvement in picture quality over the earlier 1.0 version due to the use of better encoding and higher quality sources and replacing many of the despecialized shots with higher quality ones.
+      Sources:
+      1) STAR WARS Episode V The Empire Strikes Back Official Blu-Ray 2011
+      2) STAR WARS Episode V The Empire Strikes Back 2006 Bonus DVD (sourced from the 1993 Definitive Edition Laser Disc Master - upscale by Mattman Omega)
+      3) Adywan's THE EMPIRE STRIKES BACK 1997 Special Edition Reconstruction 1080p MKV (HDTV source)
+      4) The Empire Strikes Back 1997 Special Edition ("TB" DTV capture)
+      5) Team Negative1 35mm print scan
+      6) Custom mattes, 35mm film cell scans etc.
+      7) Adywan's THE EMPIRE STRIKES BACK 1980 Theatrical Reconstruction NTSC DVD
+      8) Puggo Strikes Back (16mm print transfer)
+      A gallery showing all the changes can be found here: https://plus.google.com/u/1/photos/109609428403596349302/albums/6044645069501365185
+  Return of the Jedi OTD83:
+    title: Return of the Jedi
+    year: 1983
+    edition_filter: OTD83 v1.2
+    summary:
+      |
+      This is theatrical but not completely theatrical...Quality over authenticity. Keeping it as theatrical as possible, but willing to sacrifice some authenticity for quality sake so some creative license was used in the process. It's theatrical in spirit.
+      This is not a pure theatrical reconstruction. This is not a new Despecialized. This is D+83/OTD83 (oohteedee).
+      Sources: NA
+      Audio: This project is theatrically synced so any audio from 4K83 will work with it. 1993 LD sound mix included.
+      Colour: One replacement shot is graded using a LUT made with DrDre's tool. Everything else is graded with curves. They are quicker and more forgiving than LUTs. Most of the film is graded with one correction. There are a bunch of shots that are tweaked further though. 
+      Stuff NOT restored: The shot of Boba Fett flying through the air is left SE. The original just looks bad. -There is one shot that has three frames of blinking Ewok eyes. It's barely noticeable. Harmy's list of SE changes doesn't even mention it. -Anakin doesn't have eyebrows here. He looks better without them anyway. The main reason for not restoring them is the drop in visual quality that would go along with restoring all the shots. -There are a few re-composited shots that are slightly different. They are much higher quality in the UHD BR. The re-composites don't change the original feel of the shots and most people would never know a difference without direct comparison to the original.
+      https://forums.thestarwarstrilogy.com/threads/otd83-theatrical-reconstruction-of-jedi-using-the-uhd-br.713/page-7#post-30693
+  Return of the Jedi Despecialized:
+    title: Return of the Jedi
+    year: 1983
+    edition_filter: Despecialized v2.5
+    summary:
+      |
+      This is a reconstruction of the 1983 theatrical version of Return of the Jedi. The original shots were painstakingly restored using various sources (listed below) and the film received an extensive shot by shot colour correction based on a fade free 1983 LPP Print. ROTJ v2.5 is pretty much completely despecialized, apart from a couple of wipes, which were recomposited optically in 1997 and look nearly identical to the originals, so for all intents and purposes this is the original version. The remastered version (v2.5) represents a significant improvement in picture quality over the earlier 1.0 version due to the use of better encoding and higher quality sources and replacing many of the despecialized shots with higher quality ones.
+      Sources:
+      1) Star Wars Episode VI Return of the Jedi Official Blu-Ray (2011) 
+      2) LPP 35mm print scans (Team Negative 1 and Poita)
+      3) Schorman's HDTV Preservation - Return of the Jedi (2004 DVD version)
+      4) RETURN OF THE JEDI 2006 Bonus DVD (sourced from the 1993 Definitive Edition Laser Disc Master - upscaled by Dark Jedi)
+      5) RETURN OF THE PUG (1983 16mm print transfer)
+      6) Custom mattes
+      A gallery showing all the changes can be found here: https://goo.gl/photos/xuSSHRfn9aPFduKAA
+  Return of the Jedi 35mm:
+    title: Return of the Jedi
+    year: 1983
+    edition_filter: Harmy 35mm
+    summary:
+      |
+      Harmy's Grindhouse 35mm Edition for Return of The Jedi, a high quality scan of the 1983 fade free 35mm LPP print. Special thanks to Poita. This is the original Theatrical version.
+  tt3629520: #Dragon's Heaven
+    title: Dragon's Heaven
+    edition_filter: 4K Remaster
+    summary:
+      |
+      In the year 3195, there was a war between an army of robots and the humans. When Shaian, a sentient combat armor, lost his companion in battle, he shut down until his internal systems spotted a new human. It's now almost a 1000 years later, and Shaian's greatest enemy is still alive and doing battle in Brazil. With a new friend's help, Shaian may be able to stop this evil force before another war rages over the continent.
+      Encoders Notes: Dragon’s Heaven is a one-shot OVA released on VHS in 1988 and on DVD some years later. It will likely never get an HD release, in part because the creator has stated he feels DVD media is "good enough" and worries that HD would change the look too much. I think that's unfortunate, and I want to show that that the show is, in fact, even more beautiful in HD.
+      I know that upscaling anime is controversial, and this anime in particular moreso than most, but I am hoping that the result shows that, with the right workflow, this can be done tastefully and convincingly. AI upscaling is a powerful tool, but it’s not so powerful that one can simply scale any content to any resolution on default settings and have it look good, which is why most anime you see scaled from SD to 4K looks like it’s had all the detail and hand-drawn character sandblasted clean off. I’ve been experimenting with different workflows and I feel like I’ve worked out a better approach. 
+      Dragon’s Heaven is a perfect example because it is an especially difficult film to upscale to 4K. It has only been released on standard-def DVD, it has exceptionally detailed artwork, it features scenes with heavy artificial noise/static overlaid on the scene, and even live action segments. It’s also a controversial choice, as the director Makoto Kobayashi has said that he doesn’t like HD media because he feels it changes the character of the image and the tone of the colors. So I was very careful to use a light touch with this. While I didn’t entirely avoid sharpening and color correction, I tried to use balanced settings that felt “realistic” and authentic to the artwork, and then dialed anything I did down beyond that for good measure. 
+      One of the big "tells" of AI upscaling anime in particular is that the sharpening process that gives it that crisp look also tends to make the line work thicker, and makes the color of lines blended/lighter to compensate. Where there's a lot of fine line work or grain, sometimes you can end up with splotchy "watercolor" artifacts, which is generally a sign that you've gone too far. So keep an eye on your lines and make sure they stay black when adjusting your settings and don't be afraid to pull down the sharpening and De-blur if your lines start getting too chunky or transparent.  
+      I used a multi-pass method to achieve this result. Scaling standard def content all the way to 4K is not a good idea, and yields a vastly different result than stepping up to it in increments. So first I did two 1080p passes using the Proteus Fine Tune model, one with a conservative amount of sharpening and de-blur – this creates a crisp, beautiful image in ideal circumstances, but also more clearly shows flaws and artifacts. I then did a second “safe” pass without the de-blur and with lower sharpening. I then blended these two in Premiere and dissolved between them at different levels to get the ideal image in each shot. Shots with obvious artifacts could be covered up, while others could be left sharper. I didn't spend a lot of time on this step, I did not feel the need to be especially precise, as a blend between both tended to look nice 90% of the time and it was just about covering up the outliers. 
+      This gave me an optimized 1080p version to work with. I fed this back into Topaz and took it up to 4K. For this final pass, I dialed down the detail reconstruction to near zero, as I had enough detail and didn’t want to introduce new artifacts, and carefully dialed up a small amount of sharpening and deblur just to give the line work structure and make it look like a high-res scan, but not enough to add noise to the scenes with the heavy static. When it was done, I scrubbed through it and found two shots that had problematic noise artifacts, and redid those with less aggressive sharpening and edited them back in. 
+      Obviously, the result is not perfect. It isn’t a native 4K scan. There are still some lingering artifacts. A trained eye can always tell. But I hope that it’s tasteful and preserves the incredible artwork in this anime. And that it is instructive/informative to those who wish to get a more “realistic” result out of their upscaling.
