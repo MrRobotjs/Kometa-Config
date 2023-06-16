@@ -1,6 +1,6 @@
 templates:
   Github:
-    file_poster: https://raw.githubusercontent.com/MrRobotjs/PMM-Configs/main/<<git_url>>
+    poster_url: https://raw.githubusercontent.com/MrRobotjs/PMM-Configs/main/<<git_url>>
 
 collections:
 #####################################
@@ -18,7 +18,7 @@ collections:
     filters:
       edition: 35mm
 
-  Star Wars Harmy's DeRe Specialized:
+  Star Wars Harmy's De/Re Specialized:
     template: { name: Github, git_url: Movies/Collection%20Posters/Star%20Wars/poster.png }
     plex_search:
       any:
