@@ -35,8 +35,8 @@ metadata:
       https://forums.thestarwarstrilogy.com/threads/d-77-theatrical-reconstruction-using-disney-v1-x-uhd-br-v2-x.342/
       PS: Was encoded again from 31.2GB down to 18.6GB by Polybius using Handbrake, settings are in json within same folder.
   A New Hope Despecialized:
-    title: "A New Hope"
-    alt_title: "Star Wars: Episode IV - A New Hope"
+    title: "Star Wars: Episode IV - A New Hope"
+    alt_title: "A New Hope"
     year: 1977
     edition_filter: Despecialized v2.7
     summary:
