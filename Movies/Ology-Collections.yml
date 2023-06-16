@@ -82,3 +82,10 @@ collections:
       - tt0120737 #The Lord of the Rings: The Fellowship of the Ring
       - tt0167260 #The Lord of the Rings: The Return of the King
       - tt0167261 #The Lord of the Rings: The Two Towers
+
+  Cars:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Cars/poster.jpeg }
+    imdb_id:
+      - tt0317219 #Cars
+      - tt1216475 #Cars 2
+      - tt3606752 #Cars 3
