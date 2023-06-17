@@ -1,0 +1,24 @@
+overlays:
+  #Apple TV+ Oscar-Winning Movies:
+    #imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary,short&groups=oscar_winner&companies=co0546168
+    #overlay:
+      #name: Apple TV+ Oscar-Winning Movies
+      #group: ribbon
+      #weight: 100
+
+  #Apple TV+:
+    #imdb_list: https://www.imdb.com/search/title/?companies=co0546168&title_type=feature,tv_movie,documentary,short
+    #overlay:
+      #name: Apple TV+
+      #group: ribbon
+      #weight: 100
+
+  Oscar-Winning Movies:
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary,short&groups=oscar_winner
+    overlay:
+      name: Oscar-Winning Movies
+      group: ribbon
+      weight: 100
+    #filter:
+      #label.not:
+        #- Apple TV+
