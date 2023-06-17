@@ -70,7 +70,8 @@ metadata:
       8) Puggo Grande (1977 16mm print transfer)
       https://originaltrilogy.com/topic/Harmys-STAR-WARS-Respecialized-Edition-97-AVCHD-and-MKV-Released/id/16682
   A New Hope 35mm:
-    title: A New Hope
+    title: "Star Wars: Episode IV - A New Hope"
+    alt_title: "A New Hope"
     year: 1977
     edition_filter: TN1 35mm
     summary:
@@ -109,7 +110,8 @@ metadata:
       Colour: The original HDR grade took advantage of the wider colour gamut. Since working in SDR, rec.709, HDR grade was tamed. What this means is areas that lacked saturation have been boosted but areas that would have gotten oversaturated with that change have been scaled back. Other colour tweaks were used to make it the best. Colour is - HDR tonemapped with a LUT provided by age - final colour using only curves (sat-vs-sat, luma-vs-sat, hue-vs-sat, and standard RGB curves). Thanks to Nate D for colour and contrast advise.
       https://forums.thestarwarstrilogy.com/threads/d-80-theatrical-reconstruction-using-disney-v1-x-uhd-br-v2-x.359/page-36#post-42958
   The Empire Strikes Back 35mm:
-    title: The Empire Strikes Back
+    title: "Star Wars: Episode V - The Empire Strikes Back"
+    alt_title: "The Empire Strikes Back"
     year: 1980
     edition_filter: TN1 35mm
     summary:
@@ -156,7 +158,8 @@ metadata:
       6) Custom mattes
       A gallery showing all the changes can be found here: https://goo.gl/photos/xuSSHRfn9aPFduKAA
   Return of the Jedi 35mm:
-    title: Return of the Jedi
+    title: "Star Wars: Episode VI - Return of the Jedi"
+    alt_title: Return of the Jedi
     year: 1983
     edition_filter: Harmy 35mm
     summary:
