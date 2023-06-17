@@ -148,3 +148,12 @@ collections:
         - Alternate Universe
         - Disney+ IMAX
         - IMAX
+
+  The Matrix:
+    template: { name: Github, git_url: Movies/Collection%20Posters/The%20Matrix/poster.png }
+    imdb_id:
+      - tt0133093 #The Matrix
+      - tt0234215 #The Matrix Reloaded
+      - tt0242653 #The Matrix Revolutions
+      - tt10838180 #The Matrix Resurrections
+      - tt0328832 #The Animatrix
