@@ -102,18 +102,30 @@ collections:
       - tt0926084 #Harry Potter and the Deathly Hallows: Part 1
       - tt1201607 #Harry Potter and the Deathly Hallows: Part 2
   
-Digimon:
-  template: { name: Github, git_url: Movies/Collection%20Posters/Digimon/poster.png }
-  imdb_id:
-      - tt0259974 #Digimon: The Movie
-      - tt1291055 #Digimon Adventure 02: Hurricane Touchdown!! The Golden Digimentals
-      - tt0810831 #Digimon Tamers: Battle of Adventurers
-      - tt1415872 #Digimon X-Evolution
-      - tt4307880 #Digimon Adventure tri. Part 1: Reunion
-      - tt5216534 #Digimon Adventure tri. Part 2: Determination
-      - tt5468014 #Digimon Adventure Tri. Part 3: Confession
-      - tt5468016 #Digimon Adventure tri. Part 4: Loss
-      - tt5468018 #Digimon Adventure tri. Part 5: Coexistence
-      - tt5468022 #Digimon Adventure tri. Part 6: Future
-      - tt9507234 #Digimon Adventure: Last Evolution Kizuna
-      - tt22474136 #Digimon Adventure 02: The Beginning
+  Digimon:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Digimon/poster.png }
+    imdb_id:
+        - tt0259974 #Digimon: The Movie
+        - tt1291055 #Digimon Adventure 02: Hurricane Touchdown!! The Golden Digimentals
+        - tt0810831 #Digimon Tamers: Battle of Adventurers
+        - tt1415872 #Digimon X-Evolution
+        - tt4307880 #Digimon Adventure tri. Part 1: Reunion
+        - tt5216534 #Digimon Adventure tri. Part 2: Determination
+        - tt5468014 #Digimon Adventure Tri. Part 3: Confession
+        - tt5468016 #Digimon Adventure tri. Part 4: Loss
+        - tt5468018 #Digimon Adventure tri. Part 5: Coexistence
+        - tt5468022 #Digimon Adventure tri. Part 6: Future
+        - tt9507234 #Digimon Adventure: Last Evolution Kizuna
+        - tt22474136 #Digimon Adventure 02: The Beginning
+
+  Neon Genesis Evangelion:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Neon%20Genesis%20Evangelion/poster.png }
+    imdb_id:
+        - tt0169858 #Neon Genesis Evangelion: The End of Evangelion
+        - tt0169880 #Neon Genesis Evangelion: Death & Rebirth
+        - tt13645944 #Revival of Evangelion
+        - tt0923811 #Evangelion: 1.0 You Are (Not) Alone
+        - tt0860906 #Evangelion: 2.0 You Can (Not) Advance
+        - tt0860907 #Evangelion: 3.0 You Can (Not) Redo
+        - tt2458948 #Evangelion: 3.0+1.01 Thrice Upon a Time
+
