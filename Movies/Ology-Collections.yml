@@ -1,11 +1,12 @@
+#####################################
+#        Normal Collections         #
+#####################################
+
 templates:
   Github:
     url_poster: https://raw.githubusercontent.com/MrRobotjs/PMM-Configs/main/<<git_url>>
 
 collections:
-#####################################
-#        Normal Collections         #
-#####################################
   Star Wars Grindhouse:
     template: { name: Github, git_url: Movies/Collection%20Posters/Star%20Wars/Star%20Wars%20Grindhouse/poster.png }
     summary: Grindhouse releases are renders of film scans with no cleanup and no (or very minimal) color correction or other adjustments that would go into a finished film release so it's shaky with lots of grain, dirt and scratches but for those who enjoy that grindhouse theater experience, it should serve very well. These versions are best experienced with a high quality projector as the films were orignally shown. ALL of these are the ORIGINAL THEATRICAL versions.
@@ -177,3 +178,11 @@ collections:
       - tt4425200 #John Wick 2
       - tt6146586 #John Wick 3
       - tt10366206 #John Wick 4
+
+  Open Season:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Open%20Season/poster.png }
+    imdb_id:
+      - tt0400717 #Open Season
+      - tt1107365 #Open Season 2
+      - tt1646926 #Open Season 3
+      - tt4938374 #Open Season Scared Silly
