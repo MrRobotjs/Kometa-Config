@@ -157,3 +157,23 @@ collections:
       - tt0242653 #The Matrix Revolutions
       - tt10838180 #The Matrix Resurrections
       - tt0328832 #The Animatrix
+
+  Jackass:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Jackass/poster.jpg }
+    imdb_id:
+      - tt0322802 #Jackass: The Movie
+      - tt0493430 #Jackass Number Two
+      - tt1117523 #Jackass 2.5
+      - tt1116184 #Jackass 3D
+      - tt1753968 #Jackass 3.5
+      - tt18258584 #Jackass 4.5
+      - tt3063516 #Jackass Presents: Bad Grandpa
+      - tt11466222 #Jackass Forever
+
+  John Wick:
+    template: { name: Github, git_url: Movies/Collection%20Posters/John%20Wick/poster.jpeg }
+    imdb_id:
+      - tt2911666 #John Wick
+      - tt4425200 #John Wick 2
+      - tt6146586 #John Wick 3
+      - tt10366206 #John Wick 4
