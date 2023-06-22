@@ -186,3 +186,12 @@ collections:
       - tt1107365 #Open Season 2
       - tt1646926 #Open Season 3
       - tt4938374 #Open Season Scared Silly
+
+  The Twilight Saga:
+    template: { name: Github, git_url: Movies/Collection%20Posters/Twilight/poster.png }
+    imdb_id:
+      - tt1099212 #Twilight
+      - tt1259571 #The Twilight Saga: New Moon
+      - tt1325004 #The Twilight Saga: Eclipse
+      - tt1324999 #The Twilight Saga: Breaking Dawn - Part 1
+      - tt1673434 #The Twilight Saga: Breaking Dawn - Part 2
