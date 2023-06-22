@@ -8,7 +8,7 @@ templates:
 
 collections:
   Star Wars Grindhouse:
-    template: { name: Github, git_url: Movies/Collection-Posters/Star%20Wars/Star%20Wars%20Grindhouse/poster.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Grindhouse/poster.png }
     summary: Grindhouse releases are renders of film scans with no cleanup and no (or very minimal) color correction or other adjustments that would go into a finished film release so it's shaky with lots of grain, dirt and scratches but for those who enjoy that grindhouse theater experience, it should serve very well. These versions are best experienced with a high quality projector as the films were orignally shown. ALL of these are the ORIGINAL THEATRICAL versions.
     plex_search:
       any:
@@ -20,7 +20,7 @@ collections:
       edition: 35mm
 
   "Star Wars Harmy's De/Re Specialized":
-    template: { name: Github, git_url: Movies/Collection-Posters/Star%20Wars/Star%20Wars%20Harmy's%20DeRe%20Specialized/poster.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/poster.png }
     plex_search:
       any:
         title: 
@@ -40,7 +40,7 @@ collections:
       Also included is a Grindhouse 35mm Edition for Return of The Jedi, a high quality scan of the 1983 35mm LPP print. Special thanks to Poita. This is a Grindouse release, meaning only basic color correction has been done and nothing else, so it's shaky with lots of grain, dirt and scratches, but for those who enjoy that grindhouse theater experience, it should serve very well.
 
   Star Wars:
-    template: { name: Github, git_url: Movies/Collection-Posters/Star%20Wars/poster.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/poster.png }
     plex_search:
       any:
         title: 
@@ -58,14 +58,14 @@ collections:
       A collection of all Star War Films.
 
   The Hobbit:
-    template: { name: Github, git_url: Movies/Collection-Posters/Middle-Earth/The%20Hobbit/poster.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Middle-Earth/The-Hobbit/poster.png }
     imdb_id: 
       - tt0903624 #The Hobbit: An Unexpected Journey
       - tt1170358 #The Hobbit: The Desolation of Smaug
       - tt2310332 #The Hobbit: The Battle of the Five Armies
 
   The Lord of the Rings:
-    template: { name: Github, git_url: Movies/Collection-Posters/Middle-Earth/The%20Lord%20of%20The%20Rings/poster.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Middle-Earth/The-Lord-of-The-Rings/poster.png }
     imdb_id:
       - tt0077869 #The Lord of the Rings (Animation)
       - tt0120737 #The Lord of the Rings: The Fellowship of the Ring
@@ -92,7 +92,7 @@ collections:
       - tt3606752 #Cars 3
 
   Harry Potter:
-    template: { name: Github, git_url: Movies/Collection-Posters/Harry%20Potter/poster.jpeg }
+    template: { name: Github, git_url: Movies/Collection-Posters/Harry-Potter/poster.jpeg }
     imdb_id:
       - tt0241527 #Harry Potter and the Sorcerer's Stone
       - tt0295297 #Harry Potter and the Chamber of Secrets
@@ -120,7 +120,7 @@ collections:
       - tt22474136 #Digimon Adventure 02: The Beginning
 
   Neon Genesis Evangelion:
-    template: { name: Github, git_url: Movies/Collection-Posters/Neon%20Genesis%20Evangelion/poster.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Neon-Genesis-Evangelion/poster.png }
     imdb_id:
       - tt0169858 #Neon Genesis Evangelion: The End of Evangelion
       - tt0169880 #Neon Genesis Evangelion: Death & Rebirth
@@ -151,7 +151,7 @@ collections:
         - IMAX
 
   The Matrix:
-    template: { name: Github, git_url: Movies/Collection-Posters/The%20Matrix/poster.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/The-Matrix/poster.png }
     imdb_id:
       - tt0133093 #The Matrix
       - tt0234215 #The Matrix Reloaded
@@ -172,7 +172,7 @@ collections:
       - tt11466222 #Jackass Forever
 
   John Wick:
-    template: { name: Github, git_url: Movies/Collection-Posters/John%20Wick/poster.jpeg }
+    template: { name: Github, git_url: Movies/Collection-Posters/John-Wick/poster.jpeg }
     imdb_id:
       - tt2911666 #John Wick
       - tt4425200 #John Wick 2
@@ -180,7 +180,7 @@ collections:
       - tt10366206 #John Wick 4
 
   Open Season:
-    template: { name: Github, git_url: Movies/Collection-Posters/Open%20Season/poster.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Open-Season/poster.png }
     imdb_id:
       - tt0400717 #Open Season
       - tt1107365 #Open Season 2
