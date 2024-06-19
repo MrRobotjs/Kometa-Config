@@ -1,0 +1,15 @@
+collections:
+  Hidden Editions:
+    sort_title: zzzz Hidden Editions
+    collection_mode: hide_items
+    plex_search:
+        - all: #Films with Director's Cut Hidden
+            title: 
+              - Hellboy
+            edition:
+              - Director's Cut
+        - all: #Films with Extended Cut Hidden
+            title: 
+              - King Kong
+            edition:
+              - Blu-ray Extended

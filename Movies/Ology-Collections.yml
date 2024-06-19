@@ -9,24 +9,26 @@ templates:
 collections:
   Star Wars Grindhouse:
     template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Grindhouse/poster.png }
-    summary: Grindhouse releases are renders of film scans with no cleanup and no (or very minimal) color correction or other adjustments that would go into a finished film release so it's shaky with lots of grain, dirt and scratches but for those who enjoy that grindhouse theater experience, it should serve very well. These versions are best experienced with a high quality projector as the films were orignally shown. ALL of these are the ORIGINAL THEATRICAL versions.
+    collection_mode: hide_items
     plex_search:
       any:
         title: 
-          - A New Hope
-          - The Empire Strikes Back
-          - Return of the Jedi
+          - "Star Wars: Episode IV - A New Hope"
+          - "Star Wars: Episode V - The Empire Strikes Back"
+          - "Star Wars: Episode VI - Return of the Jedi"
     filters:
       edition: 35mm
+    summary: Grindhouse releases are renders of film scans with no cleanup and no (or very minimal) color correction or other adjustments that would go into a finished film release so it's shaky with lots of grain, dirt and scratches but for those who enjoy that grindhouse theater experience, it should serve very well. These versions are best experienced with a high quality projector as the films were orignally shown. ALL of these are the ORIGINAL THEATRICAL versions.
 
   "Star Wars Harmy's De/Re Specialized":
     template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/poster.png }
+    collection_mode: hide_items
     plex_search:
       any:
         title: 
-          - A New Hope
-          - The Empire Strikes Back
-          - Return of the Jedi
+          - "Star Wars: Episode IV - A New Hope"
+          - "Star Wars: Episode V - The Empire Strikes Back"
+          - "Star Wars: Episode VI - Return of the Jedi"
     filters:
       edition:
         - Respecialized
@@ -37,16 +39,16 @@ collections:
       |
       Harmy's Despecialized Editions are a fan-created film preservation of the original Star Wars trilogy films: Star Wars (1977), The Empire Strikes Back (1980) and Return of the Jedi (1983). It is a high quality replica of the out-of-print theatrical versions, created by a team of Star Wars fans with the intention of preserving the films, culturally, and historically. The project was led by Petr Harmáček, an English teacher from Plzeň, Czech Republic under the online alias Harmy.
       Some of the alterations that were made to the original films were met with a negative response from both critics and fans. Harmáček felt that altering the films in this way constituted "an act of cultural vandalism". In 2010, he began to create a high definition reconstruction of the films' theatrical versions. He and a team of eight other fans used various sources to complete the project. The first version was published online in 2011, and updated versions have been released since.
-      Also included is a Grindhouse 35mm Edition for Return of The Jedi, a high quality scan of the 1983 35mm LPP print. Special thanks to Poita. This is a Grindouse release, meaning only basic color correction has been done and nothing else, so it's shaky with lots of grain, dirt and scratches, but for those who enjoy that grindhouse theater experience, it should serve very well.
 
   Star Wars:
     template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/poster.png }
+    collection_mode: hide_items
     plex_search:
       any:
         title: 
-          - A New Hope
-          - The Empire Strikes Back
-          - Return of the Jedi
+          - "Star Wars: Episode IV - A New Hope"
+          - "Star Wars: Episode V - The Empire Strikes Back"
+          - "Star Wars: Episode VI - Return of the Jedi"
           - Star Wars
     filters:
       edition.not:
@@ -59,6 +61,7 @@ collections:
 
   The Hobbit:
     template: { name: Github, git_url: Movies/Collection-Posters/Middle-Earth/The-Hobbit/poster.png }
+    collection_mode: hide_items
     imdb_id: 
       - tt0903624 #The Hobbit: An Unexpected Journey
       - tt1170358 #The Hobbit: The Desolation of Smaug
@@ -66,6 +69,7 @@ collections:
 
   The Lord of the Rings:
     template: { name: Github, git_url: Movies/Collection-Posters/Middle-Earth/The-Lord-of-The-Rings/poster.png }
+    collection_mode: hide_items
     imdb_id:
       - tt0077869 #The Lord of the Rings (Animation)
       - tt0120737 #The Lord of the Rings: The Fellowship of the Ring
@@ -86,6 +90,7 @@ collections:
 
   Cars:
     template: { name: Github, git_url: Movies/Collection-Posters/Cars/poster.jpeg }
+    collection_mode: hide_items
     imdb_id:
       - tt0317219 #Cars
       - tt1216475 #Cars 2
@@ -93,6 +98,7 @@ collections:
 
   Harry Potter:
     template: { name: Github, git_url: Movies/Collection-Posters/Harry-Potter/poster.jpeg }
+    collection_mode: hide_items
     imdb_id:
       - tt0241527 #Harry Potter and the Sorcerer's Stone
       - tt0295297 #Harry Potter and the Chamber of Secrets
@@ -105,6 +111,7 @@ collections:
   
   Digimon:
     template: { name: Github, git_url: Movies/Collection-Posters/Digimon/poster.png }
+    collection_mode: hide_items
     imdb_id:
       - tt0259974 #Digimon: The Movie
       - tt1291055 #Digimon Adventure 02: Hurricane Touchdown!! The Golden Digimentals
@@ -121,6 +128,7 @@ collections:
 
   Neon Genesis Evangelion:
     template: { name: Github, git_url: Movies/Collection-Posters/Neon-Genesis-Evangelion/poster.png }
+    collection_mode: hide_items
     imdb_id:
       - tt0169858 #Neon Genesis Evangelion: The End of Evangelion
       - tt0169880 #Neon Genesis Evangelion: Death & Rebirth
@@ -132,6 +140,7 @@ collections:
 
   Spider-Man:
     template: { name: Github, git_url: Movies/Collection-Posters/Spider-Man/poster.png }
+    collection_mode: hide_items
     imdb_id:
       - tt0145487 #Spider-Man
       - tt0316654 #Spider-Man 2
@@ -152,6 +161,7 @@ collections:
 
   The Matrix:
     template: { name: Github, git_url: Movies/Collection-Posters/The-Matrix/poster.png }
+    collection_mode: hide_items
     imdb_id:
       - tt0133093 #The Matrix
       - tt0234215 #The Matrix Reloaded
@@ -161,6 +171,7 @@ collections:
 
   Jackass:
     template: { name: Github, git_url: Movies/Collection-Posters/Jackass/poster.jpg }
+    collection_mode: hide_items
     imdb_id:
       - tt0322802 #Jackass: The Movie
       - tt0493430 #Jackass Number Two
@@ -173,6 +184,7 @@ collections:
 
   John Wick:
     template: { name: Github, git_url: Movies/Collection-Posters/John-Wick/poster.jpeg }
+    collection_mode: hide_items
     imdb_id:
       - tt2911666 #John Wick
       - tt4425200 #John Wick 2
@@ -181,6 +193,7 @@ collections:
 
   Open Season:
     template: { name: Github, git_url: Movies/Collection-Posters/Open-Season/poster.png }
+    collection_mode: hide_items
     imdb_id:
       - tt0400717 #Open Season
       - tt1107365 #Open Season 2
@@ -189,9 +202,31 @@ collections:
 
   The Twilight Saga:
     template: { name: Github, git_url: Movies/Collection-Posters/Twilight/poster.png }
+    collection_mode: hide_items
     imdb_id:
       - tt1099212 #Twilight
       - tt1259571 #The Twilight Saga: New Moon
       - tt1325004 #The Twilight Saga: Eclipse
       - tt1324999 #The Twilight Saga: Breaking Dawn - Part 1
       - tt1673434 #The Twilight Saga: Breaking Dawn - Part 2
+
+  Godzilla:
+    #template: { name: Github, git_url: Movies/Collection-Posters/Twilight/poster.png }
+    collection_mode: hide_items
+    imdb_id:
+      - tt0831387 #Godzilla (2014)
+      - tt5034838 #Godzilla vs. Kong
+      - tt14539740 #Godzilla x Kong: The New Empire
+      - tt3741700 #Godzilla: King of the Monsters
+
+  Hellboy:
+    #imdb:
+      #- tt0167190 #Hellboy (2004)
+      #- tt0411477 #Hellboy II: The Golden Army (2008)
+      #- tt2274648 #Hellboy (2019)
+    plex_search:
+      all:
+        title: 
+          - "Hellboy"
+        edition.isnot:
+          - Director's Cut
