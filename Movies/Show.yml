@@ -1,0 +1,8 @@
+collections:
+  Show Films:
+    sort_title: zzzz Show Films
+    collection_mode: show_items
+    plex_search:
+      - all: #Films with Director's Cut Hidden
+          title: 
+            - Bumblebee

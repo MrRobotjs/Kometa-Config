@@ -186,9 +186,10 @@ metadata:
       Obviously, the result is not perfect. It isn’t a native 4K scan. There are still some lingering artifacts. A trained eye can always tell. But I hope that it’s tasteful and preserves the incredible artwork in this anime. And that it is instructive/informative to those who wish to get a more “realistic” result out of their upscaling.
   Alita Battle Angel:
     match:
+      mapping_id: tt0437086
       title: "Alita: Battle Angel"
       year: 2019
-      edition: Open Matte
+      edition: Open Matte KK650
     summary:
       |
       KK650 Encoder Notes: This V4 release uses a much higher quality video source than the first Open Matte release.
@@ -197,6 +198,7 @@ metadata:
       When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.
   "Pokemon the Movie: Mewtwo Strikes Back - Evolution":
     match:
+      mapping_id: tt8856470
       title: "Pokemon the Movie: Mewtwo Strikes Back - Evolution"
       year: 2019
       edition: 98 Fan Edit
@@ -204,15 +206,15 @@ metadata:
       |
       FAN EDIT CREATED BY "LadPrime" (YouTuber). LadPrime's Notes: What if "Mewtwo Strikes Back Evolution" featured the classic original dub and music of "Pokémon: The First Movie"? This fan edit brings the animation of the new film together with the audio of the beloved original.
       After a scientific experiment leads to the creation of a clone of Mewtwo, he sets out to destroy the world. Ash and his friends then decide to thwart Mewtwo's evil plans.
-  "Evangelion: 1.11 You Are (Not) Alone":
+  "Evangelion: 1.0 You Are (Not) Alone":
     match:
-      imdb: tt0923811
+      mapping_id: tt0923811
     title: "Evangelion: 1.11 You Are (Not) Alone"
-  "Evangelion: 2.22 You Can (Not) Advance":
+  "Evangelion: 2.0 You Can (Not) Advance":
     match:
-      imdb: tt0860906
+      mapping_id: tt0860906
     title: "Evangelion: 2.22 You Can (Not) Advance"
-  "Evangelion: 3.33 You Can (Not) Redo":
+  "Evangelion: 3.0 You Can (Not) Redo":
     match:
-      imdb: tt0860907
+      mapping_id: tt0860907
     title: "Evangelion: 3.33 You Can (Not) Redo"

@@ -220,13 +220,38 @@ collections:
       - tt3741700 #Godzilla: King of the Monsters
 
   Hellboy:
-    #imdb:
-      #- tt0167190 #Hellboy (2004)
-      #- tt0411477 #Hellboy II: The Golden Army (2008)
-      #- tt2274648 #Hellboy (2019)
-    plex_search:
-      all:
-        title: 
-          - "Hellboy"
-        edition.isnot:
-          - Director's Cut
+    template: { name: Github, git_url: Movies/Collection-Posters/Hellboy/poster.png }
+    imdb_id:
+      - tt0167190 #Hellboy (2004)
+      - tt0411477 #Hellboy II: The Golden Army (2008)
+      - tt2274648 #Hellboy (2019)
+    filter:
+      edition.isnot:
+        - Director's Cut
+
+  Bad Boys:
+    template: { name: Github, git_url: Movies/Collection-Posters/Bad-Boys/poster.png }
+    imdb_id:
+      - tt0112442 #Bad Boys (1995)
+      - tt0172156 #Bad Boys 2 (2003)
+      - tt1502397 #Bad Boys For Life (2020)
+      - tt4919268 #Bad Boys: Ride or Die (2024)
+
+  Transformers:
+    template: { name: Github, git_url: Movies/Collection-Posters/Transformers/poster.jpeg }
+    imdb_id:
+      - tt0418279 #Transformers (2007)
+      - tt1055369 #Transformers: Revenge of the Fallen (2009)
+      - tt1399103 #Transformers: Dark of the Moon (2011)
+      - tt2109248 #Transformers: Age of Extinction (2014)
+      - tt3371366 #Transformers: The Last Knight (2017)
+      - tt4701182 #Bumblebee
+      - tt5090568 #Transformers: Rise of the Beasts (2023)
+
+  #King kong:
+    #imdb_id:
+      #- tt0360717 #King Kong (2005)
+      #- tt3731562 #Kong: Skull Island (2017)
+    #filter:
+      #edition.isnot:
+        #- Blu-ray Extended
