@@ -1,0 +1,14 @@
+#####################################
+#        Normal Collections         #
+#####################################
+
+templates:
+  Github:
+    url_poster: https://raw.githubusercontent.com/MrRobotjs/PMM-Configs/main/<<git_url>>
+
+collections:
+  Anime:
+    template: { name: Github, git_url: Movies/Collection-Posters/Anime.png }
+    sort_title: "!1 Anime"
+    smart_label: release.asc
+    tmdb_keyword: 210024  #https://www.themoviedb.org/keyword/210024 also accepted

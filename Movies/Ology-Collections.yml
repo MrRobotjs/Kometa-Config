@@ -8,7 +8,7 @@ templates:
 
 collections:
   Star Wars Grindhouse:
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Grindhouse/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/Star-Wars-Grindhouse/poster.png }
     collection_mode: hide_items
     plex_search:
       any:
@@ -21,7 +21,7 @@ collections:
     summary: Grindhouse releases are renders of film scans with no cleanup and no (or very minimal) color correction or other adjustments that would go into a finished film release so it's shaky with lots of grain, dirt and scratches but for those who enjoy that grindhouse theater experience, it should serve very well. These versions are best experienced with a high quality projector as the films were orignally shown. ALL of these are the ORIGINAL THEATRICAL versions.
 
   "Star Wars Harmy's De/Re Specialized":
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/poster.png }
     collection_mode: hide_items
     plex_search:
       any:
@@ -41,7 +41,7 @@ collections:
       Some of the alterations that were made to the original films were met with a negative response from both critics and fans. Harmáček felt that altering the films in this way constituted "an act of cultural vandalism". In 2010, he began to create a high definition reconstruction of the films' theatrical versions. He and a team of eight other fans used various sources to complete the project. The first version was published online in 2011, and updated versions have been released since.
 
   Star Wars:
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/poster.png }
     collection_mode: hide_items
     plex_search:
       any:
@@ -60,7 +60,7 @@ collections:
       A collection of all Star War Films.
 
   The Hobbit:
-    template: { name: Github, git_url: Movies/Collection-Posters/Middle-Earth/The-Hobbit/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Middle-Earth/The-Hobbit/poster.png }
     collection_mode: hide_items
     imdb_id: 
       - tt0903624 #The Hobbit: An Unexpected Journey
@@ -68,7 +68,7 @@ collections:
       - tt2310332 #The Hobbit: The Battle of the Five Armies
 
   The Lord of the Rings:
-    template: { name: Github, git_url: Movies/Collection-Posters/Middle-Earth/The-Lord-of-The-Rings/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Middle-Earth/The-Lord-of-The-Rings/poster.png }
     collection_mode: hide_items
     imdb_id:
       - tt0077869 #The Lord of the Rings (Animation)
@@ -77,7 +77,7 @@ collections:
       - tt0167261 #The Lord of the Rings: The Two Towers
 
   Middle-Earth:
-    template: { name: Github, git_url: Movies/Collection-Posters/Middle-Earth/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Middle-Earth/poster.png }
     smart_label: release.asc
     collection_mode: hide
     imdb_id:
@@ -89,7 +89,7 @@ collections:
       - tt0167261 #The Lord of the Rings: The Two Towers
 
   Cars:
-    template: { name: Github, git_url: Movies/Collection-Posters/Cars/poster.jpeg }
+    template: { name: Github, git_url: Movies/Posters/Cars/poster.jpeg }
     collection_mode: hide_items
     imdb_id:
       - tt0317219 #Cars
@@ -97,7 +97,7 @@ collections:
       - tt3606752 #Cars 3
 
   Harry Potter:
-    template: { name: Github, git_url: Movies/Collection-Posters/Harry-Potter/poster.jpeg }
+    template: { name: Github, git_url: Movies/Posters/Harry-Potter/poster.jpeg }
     collection_mode: hide_items
     imdb_id:
       - tt0241527 #Harry Potter and the Sorcerer's Stone
@@ -110,7 +110,7 @@ collections:
       - tt1201607 #Harry Potter and the Deathly Hallows: Part 2
   
   Digimon:
-    template: { name: Github, git_url: Movies/Collection-Posters/Digimon/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Digimon/poster.png }
     collection_mode: hide_items
     imdb_id:
       - tt0259974 #Digimon: The Movie
@@ -127,7 +127,7 @@ collections:
       - tt22474136 #Digimon Adventure 02: The Beginning
 
   Neon Genesis Evangelion:
-    template: { name: Github, git_url: Movies/Collection-Posters/Neon-Genesis-Evangelion/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Neon-Genesis-Evangelion/poster.png }
     collection_mode: hide_items
     imdb_id:
       - tt0169858 #Neon Genesis Evangelion: The End of Evangelion
@@ -139,7 +139,7 @@ collections:
       - tt2458948 #Evangelion: 3.0+1.01 Thrice Upon a Time
 
   Spider-Man:
-    template: { name: Github, git_url: Movies/Collection-Posters/Spider-Man/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Spider-Man/poster.png }
     collection_mode: hide_items
     imdb_id:
       - tt0145487 #Spider-Man
@@ -160,7 +160,7 @@ collections:
         - IMAX
 
   The Matrix:
-    template: { name: Github, git_url: Movies/Collection-Posters/The-Matrix/poster.png }
+    template: { name: Github, git_url: Movies/Posters/The-Matrix/poster.png }
     collection_mode: hide_items
     imdb_id:
       - tt0133093 #The Matrix
@@ -170,7 +170,7 @@ collections:
       - tt0328832 #The Animatrix
 
   Jackass:
-    template: { name: Github, git_url: Movies/Collection-Posters/Jackass/poster.jpg }
+    template: { name: Github, git_url: Movies/Posters/Jackass/poster.jpg }
     collection_mode: hide_items
     imdb_id:
       - tt0322802 #Jackass: The Movie
@@ -183,7 +183,7 @@ collections:
       - tt11466222 #Jackass Forever
 
   John Wick:
-    template: { name: Github, git_url: Movies/Collection-Posters/John-Wick/poster.jpeg }
+    template: { name: Github, git_url: Movies/Posters/John-Wick/poster.jpeg }
     collection_mode: hide_items
     imdb_id:
       - tt2911666 #John Wick
@@ -192,7 +192,7 @@ collections:
       - tt10366206 #John Wick 4
 
   Open Season:
-    template: { name: Github, git_url: Movies/Collection-Posters/Open-Season/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Open-Season/poster.png }
     collection_mode: hide_items
     imdb_id:
       - tt0400717 #Open Season
@@ -201,7 +201,7 @@ collections:
       - tt4938374 #Open Season Scared Silly
 
   The Twilight Saga:
-    template: { name: Github, git_url: Movies/Collection-Posters/Twilight/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Twilight/poster.png }
     collection_mode: hide_items
     imdb_id:
       - tt1099212 #Twilight
@@ -211,7 +211,7 @@ collections:
       - tt1673434 #The Twilight Saga: Breaking Dawn - Part 2
 
   Godzilla:
-    #template: { name: Github, git_url: Movies/Collection-Posters/Twilight/poster.png }
+    #template: { name: Github, git_url: Movies/Posters/Twilight/poster.png }
     collection_mode: hide_items
     imdb_id:
       - tt0831387 #Godzilla (2014)
@@ -220,7 +220,7 @@ collections:
       - tt3741700 #Godzilla: King of the Monsters
 
   Hellboy:
-    template: { name: Github, git_url: Movies/Collection-Posters/Hellboy/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Hellboy/poster.png }
     imdb_id:
       - tt0167190 #Hellboy (2004)
       - tt0411477 #Hellboy II: The Golden Army (2008)
@@ -230,7 +230,7 @@ collections:
         - Director's Cut
 
   Bad Boys:
-    template: { name: Github, git_url: Movies/Collection-Posters/Bad-Boys/poster.png }
+    template: { name: Github, git_url: Movies/Posters/Bad-Boys/poster.png }
     imdb_id:
       - tt0112442 #Bad Boys (1995)
       - tt0172156 #Bad Boys 2 (2003)
@@ -238,7 +238,7 @@ collections:
       - tt4919268 #Bad Boys: Ride or Die (2024)
 
   Transformers:
-    template: { name: Github, git_url: Movies/Collection-Posters/Transformers/poster.jpeg }
+    template: { name: Github, git_url: Movies/Posters/Transformers/poster.jpg }
     imdb_id:
       - tt0418279 #Transformers (2007)
       - tt1055369 #Transformers: Revenge of the Fallen (2009)
@@ -247,6 +247,94 @@ collections:
       - tt3371366 #Transformers: The Last Knight (2017)
       - tt4701182 #Bumblebee
       - tt5090568 #Transformers: Rise of the Beasts (2023)
+
+  Terminator:
+    template: { name: Github, git_url: Movies/Posters/The-Terminator/poster.png }
+    imdb_id:
+      - tt0088247 #The Terminator (1984)
+      - tt0103064 #Terminator 2: Judgment Day (1991)
+      - tt0181852 #Terminator 3: Rise of the Machines (2003)
+      - tt0438488 #Terminator Salvation (2009)
+      - tt1340138 #Terminator Genisys (2015)
+      - tt6450804 #Terminator: Dark Fate (2019)
+
+  Scary Movie:
+    template: { name: Github, git_url: Movies/Posters/Scary-Movie/poster.png }
+    imdb_id:
+      - tt0175142 #Scary Movie (2000)
+      - tt0257106 #Scary Movie 2 (2001)
+      - tt0306047 #Scary Movie 3 (2003)
+      - tt0362120 #Scary Movie 4 (2006)
+      - tt0795461 #Scary Movie 5 (2013)
+
+  Shrek:
+    template: { name: Github, git_url: Movies/Posters/Shrek/poster.png }
+    imdb_id:
+      - tt0126029 #Shrek (2001)
+      - tt0298148 #Shrek (2004)
+      - tt0413267 #Shrek the Third (2007)
+      - tt0892791 #Shrek Forever After (2010)
+
+  Toy Story:
+    template: { name: Github, git_url: Movies/Posters/Toy-Story/poster.png }
+    imdb_id:
+      - tt0114709 #Toy Story (1995)
+      - tt0120363 #Toy Story 2 (1999)
+      - tt0435761 #Toy Story 3 (2010)
+      - tt1979376 #Toy Story 4 (2019)
+
+  Step Up:
+    template: { name: Github, git_url: Movies/Posters/Step-Up/poster.png }
+    imdb_id:
+      - tt0462590 #Step Up (2006)
+      - tt1023481 #Step Up 2: The Streets (2008)
+      - tt1193631 #Step Up 3D (2010)
+      - tt1800741 #Step Up Revolution (2012)
+      - tt2626350 #Step Up All In (2014)
+
+  Studio Ghibli:
+    template: { name: Github, git_url: Movies/Posters/Studio-Ghibli/poster.png }
+    smart_label: release.asc
+    imdb_id:
+      - tt0092067 #Castle in the Sky (1986)
+      - tt12441478 #Earwig and the Witch (2020)
+      - tt1798188 #From Up on Poppy Hill (2011)
+      - tt0095327 #Grave of the Fireflies (1988)
+      - tt0347149 #Howl's Moving Castle (2004)
+      - tt0097814 #Kiki's Delivery Service (1989)
+      - tt0096283 #My Neighbor Totoro (1988)
+      - tt0206013 #My Neighbors the Yamadas (1999)
+      - tt0108432 #Ocean Waves (1993)
+      - tt0102587 #Only Yesterday (1991)
+      - tt0110008 #Pom Poko (1994)
+      - tt0876563 #Ponyo (2008)
+      - tt0104652 #Porco Rosso (1992)
+      - tt0119698 #Princess Mononoke (1997)
+      - tt0245429 #Spirited Away (2001)
+      - tt0495596 #Tales from Earthsea (2006)
+      - tt0347618 #The Cat Returns (2002)
+      - tt1568921 #The Secret World of Arrietty (2010)
+      - tt2576852 #The Tale of The Princess Kaguya (2013)
+      - tt2013293 #The Wind Rises (2013)
+      - tt3398268 #When Marnie Was There (2014)
+      - tt0113824 #Whisper of the Heart (1995)
+      - tt6587046 #The Boy and the Heron (2023)
+
+  Creed:
+    template: { name: Github, git_url: Movies/Posters/Creed/poster.jpg }
+    imdb_id:
+      - tt3076658 #Creed (2015)
+      - tt6343314 #Creed 2 (2018)
+      - tt11145118 #Creed 3 (2023)
+
+  Ghostbusters:
+    template: { name: Github, git_url: Movies/Posters/Ghostbusters/poster.png }
+    imdb_id:
+      - tt0087332 #Ghostbusters (1984)
+      - tt0097428 #Ghostbusters 2 (1989)
+      - tt1289401 #Ghostbusters (2016)
+      - tt4513678 #Ghostbusters: Afterlife (2021)
+      - tt21235248 #Ghostbusters: Frozen Empire (2024)
 
   #King kong:
     #imdb_id:

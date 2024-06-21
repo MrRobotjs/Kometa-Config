@@ -12,7 +12,7 @@ metadata:
       alt_title: "A New Hope"
       year: 1977
       edition: D+77 v2.4
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-(1977).png }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/Star-Wars-(1977).png }
     summary:
       |
       This is theatrical but not completely theatrical...restored most of the original 1977 shots of the film, removing almost all of the CGI and other unnecessary changes. Quality over authenticity. Keeping it as theatrical as possible, but willing to sacrifice some authenticity for quality sake so some creative license was used in the process. It's theatrical in spirit.
@@ -28,7 +28,7 @@ metadata:
       alt_title: "A New Hope"
       year: 1977
       edition: Despecialized v2.7
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/A-New-Hope-(1977)-Despecialized-v2.7.jpg }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/A-New-Hope-(1977)-Despecialized-v2.7.jpeg }
     summary:
       |
       This is a reconstruction of the 1977 theatrical version of STAR WARS. The original shots were painstakingly restored using various sources (listed below) and the film received an extensive shot by shot colour correction based on a fade free 1977 I.B. Technicolor Print. 
@@ -46,7 +46,7 @@ metadata:
       alt_title: "A New Hope"
       year: 1977
       edition: Respecialized
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/A-New-Hope-(1977)-Respecialized-97.jpg }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/A-New-Hope-(1977)-Respecialized-97.jpg }
     summary:
       |
       This is a reconstruction of the 1997 Special Edition version of STAR WARS, which was shown in cinemas world wide and had fewer alterations than the 2004 DVD version and fewer still than the BD version. Plus it didn’t have screwed up colors and by all accounts it had a pretty awesome sound mix (unlike the screwed up DVD and BD mixes) which we now have in the highest quality as heard in cinemas in 1997. This is a little side project to the Despecialized Edition - it uses the Despecialized Edition v2.5 master as its main video source and puts the changes made in 1997 back in, mostly using the Blu-Ray version and in case of 1997 changes, which were redone in later versions, this version combines the BD footage with Team Blu's (Dark Jedi and You_Too) 1997 version. The colour correction is still based on a fade free 1977 I.B. Technicolor Print, just as the 1997 version supposedly was. The forced subtitles in the Greedo scene were left the same as in v2.5 and the subtitles in the Jabba scene (along with the rest of the 1997 elements of the footage were used from the Team Blu version).
@@ -66,7 +66,7 @@ metadata:
       alt_title: "A New Hope"
       year: 1977
       edition: 35mm
-    template: { name: Github, git_url: "Movies/Collection-Posters/Star-Wars/Star-Wars-Grindhouse/A-New-Hope-(1977)-[TN1].png" }
+    template: { name: Github, git_url: "Movies/Posters/Star-Wars/Star-Wars-Grindhouse/A-New-Hope-(1977)-[TN1].png" }
     summary:
       |
       Star Wars Technicolor Grindhouse Edition (LPP Reel 1 with Laserdisc audio, Technicolor Reels 2 - 6 with optical Audio, no cleanup).
@@ -77,7 +77,7 @@ metadata:
       alt_title: "The Empire Strikes Back"
       year: 1980
       edition: Despecialized v2.0
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/The-Empire-Strikes-Back-(1980)-Despecialized-v2.0.jpeg }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/The-Empire-Strikes-Back-(1980)-Despecialized-v2.0.jpeg }
     summary:
       |
       This is a reconstruction of the 1980 theatrical version of The Empire Strikes Back. The original shots were painstakingly restored using various sources (listed below) and the film received an extensive shot by shot colour correction. The remastered version (v2.0) represents a significant improvement in picture quality over the earlier 1.0 version due to the use of better encoding and higher quality sources and replacing many of the despecialized shots with higher quality ones.
@@ -97,7 +97,7 @@ metadata:
       alt_title: "The Empire Strikes Back"
       year: 1980
       edition: D+80 v2.3
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/The-Empire-Strikes-Back-(1980).png }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/The-Empire-Strikes-Back-(1980).png }
     summary:
       |
       This is theatrical but not completely theatrical...Quality over authenticity. Keeping it as theatrical as possible, but willing to sacrifice some authenticity for quality sake so some creative license was used in the process. It's theatrical in spirit.
@@ -112,7 +112,7 @@ metadata:
       alt_title: "The Empire Strikes Back"
       year: 1980
       edition: 35mm
-    template: { name: Github, git_url: "Movies/Collection-Posters/Star-Wars/Star-Wars-Grindhouse/Empire-Strikes-Back-(1980)-[TN1].png" }
+    template: { name: Github, git_url: "Movies/Posters/Star-Wars/Star-Wars-Grindhouse/Empire-Strikes-Back-(1980)-[TN1].png" }
     summary:
       |
       This is a reconstruction of the 1980 theatrical version of The Empire Strikes Back. The original shots were painstakingly restored using various sources (listed below) and the film received an extensive shot by shot colour correction. The remastered version (v2.0) represents a significant improvement in picture quality over the earlier 1.0 version due to the use of better encoding and higher quality sources and replacing many of the despecialized shots with higher quality ones.
@@ -132,7 +132,7 @@ metadata:
       alt_title: Return of the Jedi
       year: 1983
       edition: D+83 v1.2
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Return-of-the-Jedi-(1983).png }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/Return-of-the-Jedi-(1983).png }
     summary:
       |
       This is theatrical but not completely theatrical...Quality over authenticity. Keeping it as theatrical as possible, but willing to sacrifice some authenticity for quality sake so some creative license was used in the process. It's theatrical in spirit.
@@ -148,7 +148,7 @@ metadata:
       alt_title: Return of the Jedi
       year: 1983
       edition: Despecialized v2.5
-    template: { name: Github, git_url: Movies/Collection-Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/Return-of-the-Jedi-(1983)-Despecialized-v2.5.jpg }
+    template: { name: Github, git_url: Movies/Posters/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/Return-of-the-Jedi-(1983)-Despecialized-v2.5.jpg }
     summary:
       |
       This is a reconstruction of the 1983 theatrical version of Return of the Jedi. The original shots were painstakingly restored using various sources (listed below) and the film received an extensive shot by shot colour correction based on a fade free 1983 LPP Print. ROTJ v2.5 is pretty much completely despecialized, apart from a couple of wipes, which were recomposited optically in 1997 and look nearly identical to the originals, so for all intents and purposes this is the original version. The remastered version (v2.5) represents a significant improvement in picture quality over the earlier 1.0 version due to the use of better encoding and higher quality sources and replacing many of the despecialized shots with higher quality ones.
@@ -166,7 +166,7 @@ metadata:
       alt_title: Return of the Jedi
       year: 1983
       edition: 35mm
-    template: { name: Github, git_url: "Movies/Collection-Posters/Star-Wars/Star-Wars-Grindhouse/Return-of-the-Jedi-(1983)-[Harmy].png" }
+    template: { name: Github, git_url: "Movies/Posters/Star-Wars/Star-Wars-Grindhouse/Return-of-the-Jedi-(1983)-[Harmy].png" }
     summary:
       |
       Harmy's Grindhouse 35mm Edition for Return of The Jedi, a high quality scan of the 1983 fade free 35mm LPP print. Special thanks to Poita. This is the original Theatrical version.

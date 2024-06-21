@@ -1,0 +1,61 @@
+##############################################################################
+#                    Academy Awards (Oscars) Collections                     #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#            https://kometa.wiki/en/latest/defaults/award/oscars             #
+##############################################################################
+
+templates:
+  Github:
+    url_poster: https://raw.githubusercontent.com/MrRobotjs/PMM-Configs/main/<<git_url>>
+
+external_templates:
+  default: templates
+  template_variables:
+    collection_section: 130
+
+collections:
+  Oscars Winners Awards:
+    template: { name: Github, git_url: Movies/Collection-Posters/Oscar-Winners.png }
+    sort_title: "!2 Oscar Winners"
+    sync_mode: sync
+    smart_label: random
+    imdb_award:
+      event_id: ev0000003
+      event_year: all
+      winning: true
+    filter:
+      edition.not:
+        - 35mm
+        - Despecialized
+        - Respecialized
+
+  Oscars Best Picture Winners:
+    template: { name: Github, git_url: Movies/Collection-Posters/Oscar-Winners.png }
+    sort_title: "!3 Oscars Best Picture Winners"
+    smart_label: random
+    collection_mode: hide
+    imdb_award:
+      event_id: ev0000003
+      event_year: all
+      category_filter:
+        - best motion picture of the year
+        - best picture
+        - best picture, production
+        - best picture, unique and artistic production
+      winning: true
+
+  Oscars Best Director Winners:
+    template: { name: Github, git_url: Movies/Collection-Posters/Oscar-Winners.png }
+    sort_title: "!4 Oscars Best Director Winners"
+    smart_label: random
+    collection_mode: hide
+    imdb_award:
+      event_id: ev0000003
+      event_year: all
+      category_filter:
+        - best achievement in directing
+        - best director
+        - best director, comedy picture
+        - best director, dramatic picture
+      winning: true

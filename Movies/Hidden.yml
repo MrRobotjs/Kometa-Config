@@ -11,5 +11,14 @@ collections:
       - all: #Films with Extended Cut Hidden
           title: 
             - King Kong
-          edition:
-            - Blu-ray Extended
+          any:
+            edition:
+              - Blu-ray Extended
+              - Extended
+      - all: #Films with Noir Edition
+          title: 
+            - Logan
+          any:
+            edition:
+              - Blu-ray Noir
+              - Noir
