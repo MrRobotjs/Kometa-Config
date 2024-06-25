@@ -10,5 +10,30 @@ collections:
   Anime:
     template: { name: Github, git_url: Movies/Collection-Posters/Anime.png }
     sort_title: "!1 Anime"
-    smart_label: release.asc
+    smart_label: random
     tmdb_keyword: 210024  #https://www.themoviedb.org/keyword/210024 also accepted
+  Trending:
+    template: { name: Github, git_url: Movies/Collection-Posters/Trending.png }
+    sort_title: "!5 Trending"
+    #smart_label: release.desc
+    collection_mode: show_items
+    collection_order: custom
+    trakt_chart:
+      chart: trending
+      limit: 50
+    sync_mode: sync
+  Documentaries:
+    template: { name: Github, git_url: Movies/Collection-Posters/Documentaries.png }
+    sort_title: "!6 Documentaries"
+    collection_order: release.desc
+    tmdb_keyword: 282080
+    imdb_search:
+      type: movie
+      genre: Documentary
+    plex_search:
+      all:
+        genre: Documentary
+        title.not:
+          - "Weird: The Al Yankovic Story"
+          - Jackass
+    sync_mode: sync

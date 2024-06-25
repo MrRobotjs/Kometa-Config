@@ -16,7 +16,7 @@ external_templates:
 
 collections:
   Oscars Winners Awards:
-    template: { name: Github, git_url: Movies/Collection-Posters/Oscar-Winners.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Oscar-Winners2.png }
     sort_title: "!2 Oscar Winners"
     sync_mode: sync
     smart_label: random
@@ -29,11 +29,13 @@ collections:
         - 35mm
         - Despecialized
         - Respecialized
+        - "Blu-ray Criterion B&W"
 
   Oscars Best Picture Winners:
-    template: { name: Github, git_url: Movies/Collection-Posters/Oscar-Winners.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Oscars-Best-Picture-1.png }
     sort_title: "!3 Oscars Best Picture Winners"
-    smart_label: random
+    sync_mode: sync
+    smart_label: release.desc
     collection_mode: hide
     imdb_award:
       event_id: ev0000003
@@ -44,11 +46,18 @@ collections:
         - best picture, production
         - best picture, unique and artistic production
       winning: true
+    filter:
+      edition.not:
+        - 35mm
+        - Despecialized
+        - Respecialized
+        - "Blu-ray Criterion B&W"
 
   Oscars Best Director Winners:
-    template: { name: Github, git_url: Movies/Collection-Posters/Oscar-Winners.png }
+    template: { name: Github, git_url: Movies/Collection-Posters/Oscars-Best-Director.png }
     sort_title: "!4 Oscars Best Director Winners"
-    smart_label: random
+    sync_mode: sync
+    smart_label: release.desc
     collection_mode: hide
     imdb_award:
       event_id: ev0000003
@@ -59,3 +68,9 @@ collections:
         - best director, comedy picture
         - best director, dramatic picture
       winning: true
+    filter:
+      edition.not:
+        - 35mm
+        - Despecialized
+        - Respecialized
+        - "Blu-ray Criterion B&W"
