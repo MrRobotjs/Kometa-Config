@@ -336,6 +336,14 @@ collections:
       - tt4513678 #Ghostbusters: Afterlife (2021)
       - tt21235248 #Ghostbusters: Frozen Empire (2024)
 
+  Scream:
+    template: { name: Github, git_url: Movies/Posters/Scream/poster.png }
+    imdb_id:
+      - tt0117571 #Scream (1996)
+      - tt0120082 #Scream 2 (1997)
+      - tt0134084 #Scream 3 (2000)
+      - tt11245972 #Scream (2022)
+      - tt17663992 #Scream VI (2023)
   #King kong:
     #imdb_id:
       #- tt0360717 #King Kong (2005)

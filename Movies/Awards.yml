@@ -16,7 +16,7 @@ external_templates:
 
 collections:
   Oscars Winners Awards:
-    template: { name: Github, git_url: Movies/Collection-Posters/Oscar-Winners2.png }
+    template: { name: Github, git_url: Collection-Posters/Oscar-Winners2.png }
     sort_title: "!2 Oscar Winners"
     sync_mode: sync
     smart_label: random
@@ -32,7 +32,7 @@ collections:
         - "Blu-ray Criterion B&W"
 
   Oscars Best Picture Winners:
-    template: { name: Github, git_url: Movies/Collection-Posters/Oscars-Best-Picture-1.png }
+    template: { name: Github, git_url: Collection-Posters/Oscars-Best-Picture-1.png }
     sort_title: "!3 Oscars Best Picture Winners"
     sync_mode: sync
     smart_label: release.desc
@@ -54,7 +54,7 @@ collections:
         - "Blu-ray Criterion B&W"
 
   Oscars Best Director Winners:
-    template: { name: Github, git_url: Movies/Collection-Posters/Oscars-Best-Director.png }
+    template: { name: Github, git_url: Collection-Posters/Oscars-Best-Director.png }
     sort_title: "!4 Oscars Best Director Winners"
     sync_mode: sync
     smart_label: release.desc
