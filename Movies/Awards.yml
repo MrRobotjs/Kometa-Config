@@ -7,7 +7,7 @@
 
 templates:
   Github:
-    url_poster: https://raw.githubusercontent.com/MrRobotjs/PMM-Configs/main/<<git_url>>
+    url_poster: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/<<git_url>>
 
 external_templates:
   default: templates

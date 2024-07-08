@@ -4,20 +4,21 @@
 
 templates:
   Github:
-    url_poster: https://raw.githubusercontent.com/MrRobotjs/PMM-Configs/main/<<git_url>>
+    url_poster: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/<<git_url>>
 
 collections:
   Anime:
     template: { name: Github, git_url: Collection-Posters/Anime.png }
     sort_title: "!1 Anime"
     smart_label: random
+    collection_mode: show_items
     tmdb_keyword: 210024  #https://www.themoviedb.org/keyword/210024 also accepted
   Trending:
     template: { name: Github, git_url: Collection-Posters/Trending.png }
     sort_title: "!5 Trending"
-    #smart_label: release.desc
-    collection_mode: show_items
-    collection_order: custom
+    smart_label: ""
+    #collection_mode: show_items
+    #collection_order: custom
     trakt_chart:
       chart: trending
       limit: 50
@@ -36,4 +37,33 @@ collections:
         title.not:
           - "Weird: The Al Yankovic Story"
           - Jackass
+    sync_mode: sync
+  Disney:
+    template: { name: Github, git_url: Collection-Posters/Walt-Disney.png }
+    sort_title: "!7 Disney"
+    smart_label: release.desc
+    #imdb_search:
+      #type: movie, short, tv_movie, tv_short, tv_special
+      #company: co0226183
+    tmdb_discover: 
+      with_companies: 6125
+      without_companies: 1556, 420 #Fox, Marvel
+    sync_mode: sync
+  Marvel Cinematic Universe:
+    template: { name: Github, git_url: Collection-Posters/Marvel-Cinematic-Universe.jpg }
+    sort_title: "!8 Marvel Cinematic Universe"
+    #collection_order: release.desc
+    smart_label: release.desc
+    collection_mode: show_items
+    #imdb_search:
+      #type: movie, short, tv_movie, tv_short, tv_special
+      #company: co0226183
+    #tmdb_discover: 
+      #with_companies: 420
+      #without_companies: 1556, 420 #Fox, Marvel
+    tmdb_list: 84979
+    filters:
+      edition.isnot: #isnot = exact string / not = contains string
+        - Disney+ IMAX
+        - Blu-ray IMAX
     sync_mode: sync
