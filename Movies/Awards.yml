@@ -24,7 +24,7 @@ collections:
       event_id: ev0000003
       event_year: all
       winning: true
-    filter:
+    filters:
       edition.not:
         - 35mm
         - Despecialized
@@ -40,13 +40,13 @@ collections:
     imdb_award:
       event_id: ev0000003
       event_year: all
-      category_filter:
+      category_filters:
         - best motion picture of the year
         - best picture
         - best picture, production
         - best picture, unique and artistic production
       winning: true
-    filter:
+    filters:
       edition.not:
         - 35mm
         - Despecialized
@@ -62,13 +62,13 @@ collections:
     imdb_award:
       event_id: ev0000003
       event_year: all
-      category_filter:
+      category_filters:
         - best achievement in directing
         - best director
         - best director, comedy picture
         - best director, dramatic picture
       winning: true
-    filter:
+    filters:
       edition.not:
         - 35mm
         - Despecialized

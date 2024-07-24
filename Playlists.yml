@@ -1,0 +1,29 @@
+playlists:
+  Marvel Cinematic Universe (Timeline Order):
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    sync_to_users: all
+    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
+    summary: The Marvel Cinematic Universe (MCU) is a collection of movies and television series that tell a singular narrative related to Marvel characters, settings and stories. The MCU is a product from Disney and Marvel that brings us heroes from Black Panther and Doctor Strange to Spider-Man and Iron Man.
+    url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/playlist/Marvel%20Cinematic%20Universe%20(Timeline%20Order).jpg"
+    filters:
+      edition.isnot: #isnot = exact string / not = contains string
+        - Disney+ IMAX
+        - Blu-ray IMAX
+  Star Wars (Timeline Order):
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    sync_to_users: all
+    trakt_list: https://trakt.tv/users/xrayblaster/lists/star-wars-chronological-order
+    summary: A long time ago in a galaxy far, far away, a farm boy on a desert planet dreamed of joining a rebellion and saving a princess from a dark lord, and thus, one of the most successful cinematic sagas of all time was born. What began with one space opera in 1977 quickly grew into a media empire that included toys, comic books, video games, TV series, and memorabilia in every possible form. Today, more than 40 years after it first arrived, Star Wars remains a global pop culture phenomenon, and the story still isn't over.
+    url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/playlist/Star%20Wars%20(Timeline%20Order).jpg"
+    filters:
+      edition.isnot: #isnot = exact string / not = contains string
+        - 35mm
+        - Despecialized
+        - Respecialized
+  Star Wars Clone Wars Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/tomfin46/lists/star-wars-the-clone-wars-chronological-episode-order

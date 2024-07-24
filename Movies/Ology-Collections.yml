@@ -153,7 +153,7 @@ collections:
       - tt4633694 #Spider-Man: Into the Spider-Verse
       - tt9362722 #Spider-Man: Across the Spider-Verse
       - tt16360004 #Spider-Man: Beyond the Spider-Verse
-    filter:
+    filters:
       edition.not:
         - Alternate Universe
         - Disney+ IMAX
@@ -225,7 +225,7 @@ collections:
       - tt0167190 #Hellboy (2004)
       - tt0411477 #Hellboy II: The Golden Army (2008)
       - tt2274648 #Hellboy (2019)
-    filter:
+    filters:
       edition.isnot:
         - Director's Cut
 
@@ -348,6 +348,6 @@ collections:
     #imdb_id:
       #- tt0360717 #King Kong (2005)
       #- tt3731562 #Kong: Skull Island (2017)
-    #filter:
+    #filters:
       #edition.isnot:
         #- Blu-ray Extended

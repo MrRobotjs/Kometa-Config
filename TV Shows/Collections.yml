@@ -16,7 +16,6 @@ collections:
   Trending:
     template: { name: Github, git_url: Collection-Posters/Trending.png }
     sort_title: "!5 Trending"
-    #smart_label: release.desc
     collection_mode: show_items
     collection_order: custom
     trakt_chart:
@@ -27,14 +26,17 @@ collections:
     template: { name: Github, git_url: Collection-Posters/Documentaries.png }
     sort_title: "!6 Documentaries"
     collection_order: release.desc
-    #tmdb_keyword: 282080
-    #imdb_search:
-      #type: movie
-      #genre: Documentary
     plex_search:
       all:
         genre: Documentary
         title.not:
           - "Weird: The Al Yankovic Story"
           - Jackass
+    sync_mode: sync
+  Marvel Cinematic Universe:
+    template: { name: Github, git_url: Collection-Posters/Marvel-Cinematic-Universe.jpg }
+    sort_title: "!8 Marvel Cinematic Universe"
+    smart_label: release.desc
+    collection_mode: show_items
+    tmdb_list: 84979
     sync_mode: sync

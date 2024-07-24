@@ -29,16 +29,30 @@ collections:
           any:
             edition:
               - 4K Remaster
+      - all: #Films with Criterion B&W
+          title: 
+            - Parasite
+          any:
+            edition:
+              - Blu-ray Criterion B&W
       - all: #Films with D+/Blu-ray IMAX (for duplicates of existing Blu-rays in library)
           all:
             any:
-              title: 
+              title:
+                - The Marvels
+                - Black Widow
+                - Captain Marvel
+                - Doctor Strange
                 - Iron Man
                 - Ant-Man and the Wasp
                 - "Ant-Man and the Wasp: Quantumania"
                 - "Avengers: Infinity War"
                 - "Captain America: Civil War"
                 - Guardians of the Galaxy Vol. 2
+                - "Avengers: Endgame"
+                - Eternals
+                - "Thor: Love and Thunder"
+                - "Thor: Ragnarok"
           any:
             edition:
               - Disney+ IMAX
