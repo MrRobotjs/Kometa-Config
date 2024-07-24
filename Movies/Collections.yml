@@ -45,7 +45,7 @@ collections:
     sync_mode: sync
   Marvel Cinematic Universe:
     template: { name: Github, git_url: Collection-Posters/Marvel-Cinematic-Universe.jpg }
-    sort_title: "!8 Marvel Cinematic Universe"
+    sort_title: "!9 Marvel Cinematic Universe"
     smart_label: release.desc
     collection_mode: show_items
     #imdb_search:
@@ -62,12 +62,54 @@ collections:
     sync_mode: sync
   A24:
     template: { name: Github, git_url: Collection-Posters/A24.png }
-    sort_title: "!9 A24"
+    sort_title: "!8 A24"
     smart_label: release.desc
     collection_mode: show_items
     imdb_id: 
       - tt4975722 #Moonlight (2016)
       - tt5770620 #The Lovers (2017)
+      - tt4695012 #It Comes at Night (2017)
+      - tt4925292 #Lady Bird (2017)
+      - tt7784604 #Hereditary (2018)
+      - tt7014006 #Eighth Grade (2018)
+      - tt5613484 #Mid90s (2018)
+      - tt6566768 #Native Son (2019)
+      - tt8772262 #Midsommar (2019)
+      - tt8637428 #The Farewell (2019)
+      - tt9356952 #The Death of Dick Long (2019)
+      - tt7984734 #The Lighthouse (2019)
+      - tt8652728 #Waves (2019)
+      - tt5727208 #Uncut Gems (2019)
+      - tt10633456 #Minari (2020)
+      - tt10096842 #False Positive (2021)
+      - tt14731254 #Val (2021)
+      - tt9243804 #The Green Knight (2021)
+      - tt10986222 #C'mon C'mon (2021)
+      - tt10023286 #The Humans (2021)
+      - tt13453006 #Red Rocket (2021)
+      - tt10095582 #The Tragedy of Macbeth (2021)
+      - tt8633464 #After Yang (2021)
+      - tt13560574 #X (2022)
+      - tt6710474 #Everything Everywhere All at Once (2022)
+      - tt8110652 #Bodies Bodies Bodies (2022)
+      - tt8174412 #Funny Pages (2022)
+      - tt18925334 #Pearl (2022)
+      - tt10375396 #God's Creatures (2022)
+      - tt19770238 #Aftersun (2022)
+      - tt10192406 #Causeway (2022)
+      - tt13495458 #The Inspection (2022)
+      - tt6160448 #White Noise (2022)
+      - tt13833688 #The Whale (2022)
+      - tt23950956 #This Place Rules (2022)
+      - tt12121582 #When You Finish Saving the World (2022)
+      - tt12573454 #Sharper (2023)
+      - tt13923216 #Showing Up (2022)
+      - tt13521006 #Beau Is Afraid (2023)
+      - tt15771916 #You Hurt My Feelings (2023)
+      - tt13238346 #Past Lives (2023)
+      - tt18382328 #Earth Mama (2023)
+      - tt24132732 #The Deepest Breath (2023)
+      - tt15210256 #Stephen Curry: Underrated (2023)
     sync_mode: sync
     summary: 
       |
