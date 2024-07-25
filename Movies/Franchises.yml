@@ -344,6 +344,14 @@ collections:
       - tt0134084 #Scream 3 (2000)
       - tt11245972 #Scream (2022)
       - tt17663992 #Scream VI (2023)
+
+  The Avengers:
+    template: { name: Github, git_url: Movies/Posters/The-Avengers/poster.jpg }
+    imdb_id:
+      - tt0848228 #The Avengers (2012)
+      - tt2395427 #Avengers: Age of Ultron (2015)
+      - tt4154756 #Avengers: Infinity War (2018)
+      - tt4154796 #Avengers: Endgame (2019)
   #King kong:
     #imdb_id:
       #- tt0360717 #King Kong (2005)
