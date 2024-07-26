@@ -1,18 +1,8 @@
-##############################################################################
-#                    Academy Awards (Oscars) Collections                     #
-#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
-#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
-#            https://kometa.wiki/en/latest/defaults/award/oscars             #
-##############################################################################
-
-templates:
-  Github:
-    url_poster: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/<<git_url>>
-
 external_templates:
-  default: templates
-  template_variables:
-    collection_section: 130
+  - file: config/assets/Movies/Templates.yml
+  - default: templates
+    template_variables:
+      collection_section: 130
 
 collections:
   Oscars Winners Awards:
