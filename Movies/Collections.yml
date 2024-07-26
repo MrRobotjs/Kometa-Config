@@ -2,35 +2,41 @@
 #        Normal Collections         #
 #####################################
 
-templates:
-  Github:
-    url_poster: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/<<git_url>>
+external_templates:
+  #- file: config/assets/Movies/Templates.yml
+  - url: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/Movies/Templates.yml
 
 collections:
   Anime:
     template: { name: Github, git_url: Collection-Posters/Anime.png }
-    sort_title: "!1 Anime"
+    sort_title: "!A1 Anime"
     smart_label: random
     tmdb_keyword: 210024  #https://www.themoviedb.org/keyword/210024 also accepted
+    summary: Traditional Anime films. Mainly focused on animated films from Japan, not ordinary American animated films like Disney.
   Trending:
     template: { name: Github, git_url: Collection-Posters/Trending.png }
-    sort_title: "!5 Trending"
+    sort_title: "!A5 Trending"
     #smart_label: random
     collection_mode: show_items
     collection_order: custom
+    #filters:
+      #Films with Noir Edition
+      #- title.not: Logan
+        #edition: Blu-ray Noir
+      #- title.not: "Captain America: Civil War"
+        #edition.isnot: Blu-ray IMAX
     trakt_chart:
       chart: trending
-      limit: 50
-    filters:
-      #Films with Noir Edition
-      - title.is: #is = match exactly
-          - Logan
-        edition.not: #not = does not contain
-          - Noir
+      limit: 100
     sync_mode: sync
+    summary: 
+      |
+      Films trending on Trakt.tv.
+      Source: https://trakt.tv/movies/trending
+
   Documentaries:
     template: { name: Github, git_url: Collection-Posters/Documentaries.png }
-    sort_title: "!6 Documentaries"
+    sort_title: "!A6 Documentaries"
     collection_order: release.desc
     plex_search:
       all:
@@ -39,34 +45,21 @@ collections:
           - "Weird: The Al Yankovic Story"
           - Jackass
     sync_mode: sync
+    summary: Documentary Films.
+
   Disney:
     template: { name: Github, git_url: Collection-Posters/Walt-Disney.png }
-    sort_title: "!7 Disney"
+    sort_title: "!A8 Disney"
     smart_label: release.desc
+    collection_mode: hide
     tmdb_discover: 
       with_companies: 6125
       without_companies: 1556, 420 #Fox, Marvel
-      limit: 0
-    sync_mode: sync
-  Marvel Cinematic Universe:
-    template: { name: Github, git_url: Collection-Posters/Marvel-Cinematic-Universe.jpg }
-    sort_title: "!9 Marvel Cinematic Universe"
-    smart_label: release.desc
-    #imdb_search:
-      #type: movie, short, tv_movie, tv_short, tv_special
-      #company: co0226183
-    #tmdb_discover: 
-      #with_companies: 420
-      #without_companies: 1556, 420 #Fox, Marvel
-    tmdb_list: 84979
-    filters:
-      edition.isnot: #isnot = exact string / not = contains string
-        - Disney+ IMAX
-        - Blu-ray IMAX
+      limit: 500
     sync_mode: sync
   A24:
     template: { name: Github, git_url: Collection-Posters/A24.png }
-    sort_title: "!8 A24"
+    sort_title: "!A9 A24"
     smart_label: release.desc
     imdb_id: #https://en.m.wikipedia.org/wiki/List_of_A24_films
       - tt4975722 #Moonlight (2016)
@@ -143,3 +136,43 @@ collections:
       |
       Films produced by A24.
       Note: There is a difference between being distrubuted by A24 and being produced by A24. A24 has distributed many films produced by other studios but that is not a real in house A24 film so for that reason you will not see all "A24" films.
+  
+  Marvel Cinematic Universe:
+    template: { name: Github, git_url: Collection-Posters/Marvel-Cinematic-Universe.jpg }
+    sort_title: "!B1 Marvel Cinematic Universe"
+    smart_label: release.desc
+    tmdb_list: 84979
+    collection_mode: hide
+    filters:
+      edition.isnot: #isnot = exact string / not = contains string
+        - Disney+ IMAX
+        - Blu-ray IMAX
+    sync_mode: sync
+
+  DC Extended Universe:
+    template: { name: Github, git_url: Collection-Posters/DCEU.jpg }
+    sort_title: "!B2 DC Extended Universe"
+    smart_label: release.desc
+    tmdb_keyword: 229266
+    collection_mode: hide
+    #filters:
+      #edition.isnot: #isnot = exact string / not = contains string
+        #- Disney+ IMAX
+        #- Blu-ray IMAX
+    sync_mode: sync
+
+  Editions Dictionary:
+    template: { name: Github, git_url: Collection-Posters/Editions-Dict.png }
+    sort_title: "!A7 Editions Dictionary"
+    summary:
+      |
+      A list of Editions and what they mean.
+      Blu-ray Remux: Ripped from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
+      Blu-ray */IMAX/HDR/Remastered: Ripped and re-encoded from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
+      Blu-ray REGION: This plays a huge role for those of you who enjoy Anime. Cowboy Bebop: The Movie, Redline and Akira are a few examples that have (arguably to Japan) superior film overseas than in the states. example: Blu-ray Italian
+      ##th Anniversary, Collector's: Self Explanatory. These are equivalent to Blu-ray, didn't include Blu-ray to keep the edition name short.
+      4K Remaster: 4K Blu-ray films remastered but re-released in 1080p (reason why it's not in the 4K/HDR library). Typically these are far superior than the original 1080p release which could have been years back.
+      ##mm (millimeter): Straight film like the old days. May or may not be color graded and high chance of grime and scratches. Best used with projectors.
+      Netflix HBO Max Disney+ (streaming platform name): Direct download from a streaming service without re-encoding. Typically these are the best downloads from streaming services.
+      Web/WEB-DL/WEBRip: Direct download from a streaming service but the streaming service is unknown. Typically these are the best downloads from streaming services.
+      Spanish: Usually duplicates of existing films in the library but in Spanish. Why a duplicate? I rather have a superior film in terms of visual and audio in English since it's in my primary language but I do try to have Spanish films for family/friends. May include English but not always.

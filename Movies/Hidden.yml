@@ -28,13 +28,19 @@ collections:
             - Donnie Darko
           any:
             edition:
-              - 4K Remaster
+              - 4KRM
       - all: #Films with Criterion B&W
           title: 
             - Parasite
           any:
             edition:
               - Blu-ray Criterion B&W
+      - all: #Films with Criterion B&W
+          title: 
+            - "Tron: Legacy"
+          any:
+            edition:
+              - Amazon Open Matte
       - all: #Films with D+/Blu-ray IMAX (for duplicates of existing Blu-rays in library)
           all:
             any:

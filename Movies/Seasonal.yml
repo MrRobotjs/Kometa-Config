@@ -1,0 +1,19 @@
+external_templates:
+  #- file: config/assets/Movies/Templates.yml
+  - url: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/Movies/Templates.yml
+
+collections:
+  Christmas:
+    template: {name: Holiday, git_url: Collection-Posters/Christmas.png}
+    trakt_list:
+      - https://trakt.tv/users/movistapp/lists/christmas-movies
+   #   - https://trakt.tv/users/galacticboy/lists/xmas-sync
+      - https://trakt.tv/users/galacticboy/lists/christmas-list
+    imdb_list:
+      - https://www.imdb.com/list/ls025976544/
+      - https://www.imdb.com/list/ls003863000/
+      - https://www.imdb.com/list/ls027454200/
+      - https://www.imdb.com/list/ls097998599/
+    summary: Christmas film is a genre that revolves around the plot involving Christmas.
+    schedule: range(11/30-12/26) #11/30 - 12/26
+    #delete_not_scheduled: true 

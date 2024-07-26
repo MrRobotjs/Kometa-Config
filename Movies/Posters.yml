@@ -2,9 +2,9 @@
 #              Posters              #
 #####################################
 
-templates:
-  Github:
-    url_poster: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/<<git_url>>
+external_templates:
+  #- file: config/assets/Movies/Templates.yml
+  - url: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/Movies/Templates.yml
 
 metadata:
 # Neon Genesis Evangelion

@@ -1,5 +1,6 @@
 external_templates:
-  - file: config/assets/Movies/Templates.yml
+  #- file: config/assets/Movies/Templates.yml
+  - url: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/Movies/Templates.yml
   - default: templates
     template_variables:
       collection_section: 130
@@ -7,60 +8,58 @@ external_templates:
 collections:
   Oscars Winners Awards:
     template: { name: Github, git_url: Collection-Posters/Oscar-Winners2.png }
-    sort_title: "!2 Oscar Winners"
+    sort_title: "!A2 Oscar Winners"
     sync_mode: sync
     smart_label: random
-    imdb_award:
-      event_id: ev0000003
-      event_year: all
-      winning: true
     filters:
       edition.not:
         - 35mm
         - Despecialized
         - Respecialized
         - "Blu-ray Criterion B&W"
-
-  Oscars Best Picture Winners:
-    template: { name: Github, git_url: Collection-Posters/Oscars-Best-Picture-1.png }
-    sort_title: "!3 Oscars Best Picture Winners"
-    sync_mode: sync
-    smart_label: release.desc
-    collection_mode: hide
+        - Blu-ray Extended
     imdb_award:
       event_id: ev0000003
       event_year: all
-      category_filters:
+      winning: true
+    summary: Films that have won any Oscar award, either it be an actor, director or the film itself.
+
+  Oscars Best Picture Winners:
+    template: { name: Github, git_url: Collection-Posters/Oscars-Best-Picture-1.png }
+    sort_title: "!A3 Oscars Best Picture Winners"
+    sync_mode: sync
+    smart_label: release.desc
+    collection_mode: hide
+    filters:
+      edition.not:
+        - 35mm
+        - Despecialized
+        - Respecialized
+        - "Blu-ray Criterion B&W"
+    imdb_award:
+      event_id: ev0000003
+      event_year: all
+      category_filter:
         - best motion picture of the year
         - best picture
         - best picture, production
         - best picture, unique and artistic production
       winning: true
-    filters:
-      edition.not:
-        - 35mm
-        - Despecialized
-        - Respecialized
-        - "Blu-ray Criterion B&W"
-
+    summary: Films that are Oscars Best Picture Winners.
+  
   Oscars Best Director Winners:
     template: { name: Github, git_url: Collection-Posters/Oscars-Best-Director.png }
-    sort_title: "!4 Oscars Best Director Winners"
+    sort_title: "!A4 Oscars Best Director Winners"
     sync_mode: sync
     smart_label: release.desc
     collection_mode: hide
     imdb_award:
       event_id: ev0000003
       event_year: all
-      category_filters:
+      category_filter:
         - best achievement in directing
         - best director
         - best director, comedy picture
         - best director, dramatic picture
       winning: true
-    filters:
-      edition.not:
-        - 35mm
-        - Despecialized
-        - Respecialized
-        - "Blu-ray Criterion B&W"
+    summary: Films that are Oscars Best Director Winners.
