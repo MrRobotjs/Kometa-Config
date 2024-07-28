@@ -43,6 +43,7 @@ collections:
   Star Wars:
     template: { name: Github, git_url: Movies/Posters/Star-Wars/poster.png }
     collection_mode: hide_items
+    collection_order: release.desc
     plex_search:
       any:
         title: 

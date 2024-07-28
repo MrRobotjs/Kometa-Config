@@ -53,6 +53,12 @@ collections:
     sync_mode: sync
     smart_label: release.desc
     collection_mode: hide
+    filters:
+      edition.not:
+        - 35mm
+        - Despecialized
+        - Respecialized
+        - "Blu-ray Criterion B&W"
     imdb_award:
       event_id: ev0000003
       event_year: all

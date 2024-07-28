@@ -31,7 +31,7 @@ collections:
     sync_mode: sync
     summary: 
       |
-      Films trending on Trakt.tv.
+      Films trending on Trakt.tv, updated every 20 minutes.
       Source: https://trakt.tv/movies/trending
 
   Documentaries:
@@ -161,13 +161,29 @@ collections:
         #- Blu-ray IMAX
     sync_mode: sync
 
+  Kids:
+    template: { name: Github, git_url: Collection-Posters/Kids.png }
+    sort_title: "!A7 Kids"
+    tmdb_keyword: 286758  #https://www.themoviedb.org/keyword/210024 also accepted
+    #tmdb_discover:
+      #certification_country: US
+      #certification: 
+        #- G
+    imdb_search:
+      content_rating:
+        - G
+        - PG
+    sync_mode: sync
+
   Editions Dictionary:
     template: { name: Github, git_url: Collection-Posters/Editions-Dict.png }
     sort_title: "!A7 Editions Dictionary"
+    blank_collection: true
     summary:
       |
       A list of Editions and what they mean.
-      Blu-ray Remux: Ripped from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
+
+      B͟l͟u͟-r͟a͟y͟ R͟e͟m͟u͟x͟/𝙱̲𝚕̲𝚞̲-𝚛̲𝚊̲𝚢̲ 𝚁̲𝚎̲𝚖̲𝚞̲𝚡̲: Ripped from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
       Blu-ray */IMAX/HDR/Remastered: Ripped and re-encoded from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
       Blu-ray REGION: This plays a huge role for those of you who enjoy Anime. Cowboy Bebop: The Movie, Redline and Akira are a few examples that have (arguably to Japan) superior film overseas than in the states. example: Blu-ray Italian
       ##th Anniversary, Collector's: Self Explanatory. These are equivalent to Blu-ray, didn't include Blu-ray to keep the edition name short.
