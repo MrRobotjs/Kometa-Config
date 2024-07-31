@@ -47,9 +47,42 @@ collections:
     sync_mode: sync
     summary: Documentary Films.
 
+  Kids:
+    template: { name: Github, git_url: Collection-Posters/Kids.png }
+    sort_title: "!A7 Kids"
+    tmdb_keyword: 286758  #https://www.themoviedb.org/keyword/210024 also accepted
+    #tmdb_discover:
+      #certification_country: US
+      #certification: 
+        #- G
+    imdb_search:
+      content_rating:
+        - G
+        - PG
+    sync_mode: sync
+
+  Editions Dictionary:
+    template: { name: Github, git_url: Collection-Posters/Editions-Dict.png }
+    sort_title: "!A8 Editions Dictionary"
+    blank_collection: true
+    collection_mode: hide
+    summary:
+      |
+      A list of Editions and what they mean.
+
+      B͟l͟u͟-r͟a͟y͟ R͟e͟m͟u͟x͟/𝙱̲𝚕̲𝚞̲-𝚛̲𝚊̲𝚢̲ 𝚁̲𝚎̲𝚖̲𝚞̲𝚡̲: Ripped from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
+      Blu-ray */IMAX/HDR/Remastered: Ripped and re-encoded from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
+      Blu-ray REGION: This plays a huge role for those of you who enjoy Anime. Cowboy Bebop: The Movie, Redline and Akira are a few examples that have (arguably to Japan) superior film overseas than in the states. example: Blu-ray Italian
+      ##th Anniversary, Collector's: Self Explanatory. These are equivalent to Blu-ray, didn't include Blu-ray to keep the edition name short.
+      4K Remaster: 4K Blu-ray films remastered but re-released in 1080p (reason why it's not in the 4K/HDR library). Typically these are far superior than the original 1080p release which could have been years back.
+      ##mm (millimeter): Straight film like the old days. May or may not be color graded and high chance of grime and scratches. Best used with projectors.
+      Netflix HBO Max Disney+ (streaming platform name): Direct download from a streaming service without re-encoding. Typically these are the best downloads from streaming services.
+      Web/WEB-DL/WEBRip: Direct download from a streaming service but the streaming service is unknown. Typically these are the best downloads from streaming services.
+      Spanish: Usually duplicates of existing films in the library but in Spanish. Why a duplicate? I rather have a superior film in terms of visual and audio in English since it's in my primary language but I do try to have Spanish films for family/friends. May include English but not always.
+
   Disney:
     template: { name: Github, git_url: Collection-Posters/Walt-Disney.png }
-    sort_title: "!A8 Disney"
+    sort_title: "!A9 Disney"
     smart_label: release.desc
     collection_mode: hide
     tmdb_discover: 
@@ -59,7 +92,7 @@ collections:
     sync_mode: sync
   A24:
     template: { name: Github, git_url: Collection-Posters/A24.png }
-    sort_title: "!A9 A24"
+    sort_title: "!B1 A24"
     smart_label: release.desc
     imdb_id: #https://en.m.wikipedia.org/wiki/List_of_A24_films
       - tt4975722 #Moonlight (2016)
@@ -139,7 +172,7 @@ collections:
   
   Marvel Cinematic Universe:
     template: { name: Github, git_url: Collection-Posters/Marvel-Cinematic-Universe.jpg }
-    sort_title: "!B1 Marvel Cinematic Universe"
+    sort_title: "!B2 Marvel Cinematic Universe"
     smart_label: release.desc
     tmdb_list: 84979
     collection_mode: hide
@@ -151,7 +184,7 @@ collections:
 
   DC Extended Universe:
     template: { name: Github, git_url: Collection-Posters/DCEU.jpg }
-    sort_title: "!B2 DC Extended Universe"
+    sort_title: "!B3 DC Extended Universe"
     smart_label: release.desc
     tmdb_keyword: 229266
     collection_mode: hide
@@ -159,36 +192,14 @@ collections:
       #edition.isnot: #isnot = exact string / not = contains string
         #- Disney+ IMAX
         #- Blu-ray IMAX
+    sync_mode: 
+    
+  DC Animated Universe:
+    template: { name: Github, git_url: Collection-Posters/DC-Animated-Universe.jpg }
+    sort_title: "!B4 DC Animated Universe"
+    smart_label: release.desc
+    #tmdb_keyword: 253375 #dc animated movie universe
+    imdb_list:
+      - https://www.imdb.com/list/ls058721118/
+    collection_mode: hide
     sync_mode: sync
-
-  Kids:
-    template: { name: Github, git_url: Collection-Posters/Kids.png }
-    sort_title: "!A7 Kids"
-    tmdb_keyword: 286758  #https://www.themoviedb.org/keyword/210024 also accepted
-    #tmdb_discover:
-      #certification_country: US
-      #certification: 
-        #- G
-    imdb_search:
-      content_rating:
-        - G
-        - PG
-    sync_mode: sync
-
-  Editions Dictionary:
-    template: { name: Github, git_url: Collection-Posters/Editions-Dict.png }
-    sort_title: "!A7 Editions Dictionary"
-    blank_collection: true
-    summary:
-      |
-      A list of Editions and what they mean.
-
-      B͟l͟u͟-r͟a͟y͟ R͟e͟m͟u͟x͟/𝙱̲𝚕̲𝚞̲-𝚛̲𝚊̲𝚢̲ 𝚁̲𝚎̲𝚖̲𝚞̲𝚡̲: Ripped from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
-      Blu-ray */IMAX/HDR/Remastered: Ripped and re-encoded from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
-      Blu-ray REGION: This plays a huge role for those of you who enjoy Anime. Cowboy Bebop: The Movie, Redline and Akira are a few examples that have (arguably to Japan) superior film overseas than in the states. example: Blu-ray Italian
-      ##th Anniversary, Collector's: Self Explanatory. These are equivalent to Blu-ray, didn't include Blu-ray to keep the edition name short.
-      4K Remaster: 4K Blu-ray films remastered but re-released in 1080p (reason why it's not in the 4K/HDR library). Typically these are far superior than the original 1080p release which could have been years back.
-      ##mm (millimeter): Straight film like the old days. May or may not be color graded and high chance of grime and scratches. Best used with projectors.
-      Netflix HBO Max Disney+ (streaming platform name): Direct download from a streaming service without re-encoding. Typically these are the best downloads from streaming services.
-      Web/WEB-DL/WEBRip: Direct download from a streaming service but the streaming service is unknown. Typically these are the best downloads from streaming services.
-      Spanish: Usually duplicates of existing films in the library but in Spanish. Why a duplicate? I rather have a superior film in terms of visual and audio in English since it's in my primary language but I do try to have Spanish films for family/friends. May include English but not always.
