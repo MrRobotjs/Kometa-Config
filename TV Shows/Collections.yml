@@ -40,3 +40,16 @@ collections:
     collection_mode: show_items
     tmdb_list: 84979
     sync_mode: sync
+
+  DC Animated Universe:
+    template: { name: Github, git_url: Collection-Posters/DC-Animated-Universe.jpg }
+    sort_title: "!B4 DC Animated Universe"
+    smart_label: release.desc
+    #tmdb_keyword: 253375 #dc animated movie universe
+    imdb_list:
+      - https://www.imdb.com/list/ls505549439/
+    imdb_id:
+      - tt19853518 #Kite Man: Hell Yeah! (2024)
+    collection_mode: hide
+    sync_mode: sync
+    summary: DC animated TV Shows.

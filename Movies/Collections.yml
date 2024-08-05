@@ -70,106 +70,16 @@ collections:
       |
       A list of Editions and what they mean.
 
-      B͟l͟u͟-r͟a͟y͟ R͟e͟m͟u͟x͟/𝙱̲𝚕̲𝚞̲-𝚛̲𝚊̲𝚢̲ 𝚁̲𝚎̲𝚖̲𝚞̲𝚡̲: Ripped from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
-      Blu-ray */IMAX/HDR/Remastered: Ripped and re-encoded from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
-      Blu-ray REGION: This plays a huge role for those of you who enjoy Anime. Cowboy Bebop: The Movie, Redline and Akira are a few examples that have (arguably to Japan) superior film overseas than in the states. example: Blu-ray Italian
-      ##th Anniversary, Collector's: Self Explanatory. These are equivalent to Blu-ray, didn't include Blu-ray to keep the edition name short.
-      4K Remaster: 4K Blu-ray films remastered but re-released in 1080p (reason why it's not in the 4K/HDR library). Typically these are far superior than the original 1080p release which could have been years back.
-      ##mm (millimeter): Straight film like the old days. May or may not be color graded and high chance of grime and scratches. Best used with projectors.
-      Netflix HBO Max Disney+ (streaming platform name): Direct download from a streaming service without re-encoding. Typically these are the best downloads from streaming services.
-      Web/WEB-DL/WEBRip: Direct download from a streaming service but the streaming service is unknown. Typically these are the best downloads from streaming services.
-      Spanish: Usually duplicates of existing films in the library but in Spanish. Why a duplicate? I rather have a superior film in terms of visual and audio in English since it's in my primary language but I do try to have Spanish films for family/friends. May include English but not always.
+      B͟l͟u͟-r͟a͟y͟ R͟e͟m͟u͟x͟: Ripped from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
+      B͟l͟u͟-r͟a͟y͟ */I͟M͟A͟X͟/H͟D͟R͟/R͟e͟m͟a͟s͟t͟e͟r͟e͟d͟: Ripped and re-encoded from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
+      B͟l͟u͟-r͟a͟y͟ R͟E͟G͟I͟O͟N͟: This plays a huge role for those of you who enjoy Anime. Cowboy Bebop: The Movie, Redline and Akira are a few examples that have (arguably to Japan) superior film overseas than in the states. example: Blu-ray Italian
+      ##t͟h͟ A͟n͟n͟i͟v͟e͟r͟s͟a͟r͟y͟, C͟o͟l͟l͟e͟c͟t͟o͟r͟'s͟: Self Explanatory. These are equivalent to Blu-ray, didn't include Blu-ray to keep the edition name short.
+      4͟K R͟e͟m͟a͟s͟t͟e͟r͟: 4K Blu-ray films remastered but re-released in 1080p (reason why it's not in the 4K/HDR library). Typically these are far superior than the original 1080p release which could have been years back.
+      ##m͟m͟ (m͟i͟l͟l͟i͟m͟e͟t͟e͟r): Straight film like the old days. May or may not be color graded and high chance of grime and scratches. Best used with projectors.
+      N͟e͟t͟f͟l͟i͟x͟/H͟B͟O͟ M͟a͟x͟/D͟i͟s͟n͟e͟y͟+ (s͟t͟r͟e͟a͟m͟i͟n͟g͟ p͟l͟a͟t͟f͟o͟r͟m͟ n͟a͟m͟e): Direct download from a streaming service without re-encoding. Typically these are the best downloads from streaming services.
+      W͟e͟b͟/W͟E͟B͟-D͟L͟/W͟E͟B͟R͟i͟p͟: Direct download from a streaming service but the streaming service is unknown. Typically these are the best downloads from streaming services.
+      S͟p͟a͟n͟i͟s͟h͟: Usually duplicates of existing films in the library but in Spanish. Why a duplicate? I rather have a superior film in terms of visual and audio in English since it's in my primary language but I do try to have Spanish films for family/friends. May include English but not always.
 
-  Disney:
-    template: { name: Github, git_url: Collection-Posters/Walt-Disney.png }
-    sort_title: "!A9 Disney"
-    smart_label: release.desc
-    collection_mode: hide
-    tmdb_discover: 
-      with_companies: 6125
-      without_companies: 1556, 420 #Fox, Marvel
-      limit: 500
-    sync_mode: sync
-  A24:
-    template: { name: Github, git_url: Collection-Posters/A24.png }
-    sort_title: "!B1 A24"
-    smart_label: release.desc
-    imdb_id: #https://en.m.wikipedia.org/wiki/List_of_A24_films
-      - tt4975722 #Moonlight (2016)
-      - tt5770620 #The Lovers (2017)
-      - tt4695012 #It Comes at Night (2017)
-      - tt4925292 #Lady Bird (2017)
-      - tt7784604 #Hereditary (2018)
-      - tt7014006 #Eighth Grade (2018)
-      - tt5613484 #Mid90s (2018)
-      - tt6566768 #Native Son (2019)
-      - tt8772262 #Midsommar (2019)
-      - tt8637428 #The Farewell (2019)
-      - tt9356952 #The Death of Dick Long (2019)
-      - tt7984734 #The Lighthouse (2019)
-      - tt8652728 #Waves (2019)
-      - tt5727208 #Uncut Gems (2019)
-      - tt10633456 #Minari (2020)
-      - tt10096842 #False Positive (2021)
-      - tt14731254 #Val (2021)
-      - tt9243804 #The Green Knight (2021)
-      - tt10986222 #C'mon C'mon (2021)
-      - tt10023286 #The Humans (2021)
-      - tt13453006 #Red Rocket (2021)
-      - tt10095582 #The Tragedy of Macbeth (2021)
-      - tt8633464 #After Yang (2021)
-      - tt13560574 #X (2022)
-      - tt6710474 #Everything Everywhere All at Once (2022)
-      - tt8110652 #Bodies Bodies Bodies (2022)
-      - tt8174412 #Funny Pages (2022)
-      - tt18925334 #Pearl (2022)
-      - tt10375396 #God's Creatures (2022)
-      - tt19770238 #Aftersun (2022)
-      - tt10192406 #Causeway (2022)
-      - tt13495458 #The Inspection (2022)
-      - tt6160448 #White Noise (2022)
-      - tt13833688 #The Whale (2022)
-      - tt23950956 #This Place Rules (2022)
-      - tt12121582 #When You Finish Saving the World (2022)
-      - tt12573454 #Sharper (2023)
-      - tt13923216 #Showing Up (2022)
-      - tt13521006 #Beau Is Afraid (2023)
-      - tt15771916 #You Hurt My Feelings (2023)
-      - tt13238346 #Past Lives (2023)
-      - tt18382328 #Earth Mama (2023)
-      - tt24132732 #The Deepest Breath (2023)
-      - tt15210256 #Stephen Curry: Underrated (2023)
-      - tt7130916 #Dicks: The Musical (2023)
-      - tt22041854 #Priscilla (2023)
-      - tt11534720 #All Dirt Roads Taste of Salt (2023)
-      - tt21942866 #Dream Scenario (2023)
-      - tt7160372 #The Zone of Interest (2023)
-      - tt21064584 #The Iron Claw (2023)
-      - tt9573150 #Occupied City (2023)
-      - tt29649688 #My Mercury (2024)
-      - tt29649645 #Open Wide (2024)
-      #- tt11764342 #Jerry Lee Lewis: Trouble in Mind (2022)
-      - tt15078804 #Problemista (2024)
-      - tt19637052 #Love Lies Bleeding (2024)
-      - tt17279496 #Civil War (2024)
-      - tt15574270 #I Saw the TV Glow (2024)
-      - tt29644446 #The Sixth (2024)
-      - tt14682800 #Tuesday (2023)
-      - tt28366692 #Janet Planet (2023)
-      - tt22048412 #MaXXXine (2024)
-      #- tt28479262 #Sing Sing (2023)
-      - tt21905744 #The Front Room (2024)
-      - tt19121796 #Look Into My Eyes (2024)
-      - tt21097228 #A Different Man (2024)
-      - tt28015403 #Heretic (2024)
-      - tt27218960 #Y2K (2024)
-      - tt30057084 #Babygirl (2024)
-    sync_mode: sync
-    summary: 
-      |
-      Films produced by A24.
-      Note: There is a difference between being distrubuted by A24 and being produced by A24. A24 has distributed many films produced by other studios but that is not a real in house A24 film so for that reason you will not see all "A24" films.
-  
   Marvel Cinematic Universe:
     template: { name: Github, git_url: Collection-Posters/Marvel-Cinematic-Universe.jpg }
     sort_title: "!B2 Marvel Cinematic Universe"
@@ -181,6 +91,7 @@ collections:
         - Disney+ IMAX
         - Blu-ray IMAX
     sync_mode: sync
+    summary: Marvel Films that have been confirmed in the Marvel Universe.
 
   DC Extended Universe:
     template: { name: Github, git_url: Collection-Posters/DCEU.jpg }
@@ -192,7 +103,8 @@ collections:
       #edition.isnot: #isnot = exact string / not = contains string
         #- Disney+ IMAX
         #- Blu-ray IMAX
-    sync_mode: 
+    sync_mode: sync
+    summary: DC films in the DC Universe. Yes even the disappointing 2017 Justice League.
     
   DC Animated Universe:
     template: { name: Github, git_url: Collection-Posters/DC-Animated-Universe.jpg }
@@ -203,3 +115,4 @@ collections:
       - https://www.imdb.com/list/ls058721118/
     collection_mode: hide
     sync_mode: sync
+    summary: DC films that are animated.

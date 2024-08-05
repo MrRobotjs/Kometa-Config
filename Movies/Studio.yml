@@ -1,0 +1,110 @@
+#####################################
+#        Normal Collections         #
+#####################################
+
+external_templates:
+  #- file: config/assets/Movies/Templates.yml
+  - url: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/Movies/Templates.yml
+
+collections:
+  Disney:
+    template: { name: Github, git_url: Collection-Posters/Walt-Disney.png }
+    sort_title: "!A9 Disney"
+    smart_label: release.desc
+    collection_mode: hide
+    tmdb_discover: 
+      with_companies: 6125
+      without_companies: 1556, 420 #Fox, Marvel
+      limit: 500
+    sync_mode: sync
+    summary: Disney films. WIP.
+
+  A24:
+    template: { name: Github, git_url: Collection-Posters/A24.png }
+    sort_title: "!B1 A24"
+    smart_label: release.desc
+    sync_to_trakt_list: a24-films-produced
+    imdb_id: #https://en.m.wikipedia.org/wiki/List_of_A24_films
+      - tt4975722 #Moonlight (2016)
+      - tt5770620 #The Lovers (2017)
+      - tt4695012 #It Comes at Night (2017)
+      - tt4925292 #Lady Bird (2017)
+      - tt7784604 #Hereditary (2018)
+      - tt7014006 #Eighth Grade (2018)
+      - tt5613484 #Mid90s (2018)
+      - tt6566768 #Native Son (2019)
+      - tt8772262 #Midsommar (2019)
+      - tt8637428 #The Farewell (2019)
+      - tt9356952 #The Death of Dick Long (2019)
+      - tt7984734 #The Lighthouse (2019)
+      - tt8652728 #Waves (2019)
+      - tt5727208 #Uncut Gems (2019)
+      - tt10633456 #Minari (2020)
+      - tt10096842 #False Positive (2021)
+      - tt14731254 #Val (2021)
+      - tt9243804 #The Green Knight (2021)
+      - tt10986222 #C'mon C'mon (2021)
+      - tt10023286 #The Humans (2021)
+      - tt13453006 #Red Rocket (2021)
+      - tt10095582 #The Tragedy of Macbeth (2021)
+      - tt8633464 #After Yang (2021)
+      - tt13560574 #X (2022)
+      - tt6710474 #Everything Everywhere All at Once (2022)
+      - tt8110652 #Bodies Bodies Bodies (2022)
+      - tt8174412 #Funny Pages (2022)
+      - tt18925334 #Pearl (2022)
+      - tt10375396 #God's Creatures (2022)
+      - tt19770238 #Aftersun (2022)
+      - tt10192406 #Causeway (2022)
+      - tt13495458 #The Inspection (2022)
+      - tt6160448 #White Noise (2022)
+      - tt13833688 #The Whale (2022)
+      - tt23950956 #This Place Rules (2022)
+      - tt12121582 #When You Finish Saving the World (2022)
+      - tt12573454 #Sharper (2023)
+      - tt13923216 #Showing Up (2022)
+      - tt13521006 #Beau Is Afraid (2023)
+      - tt15771916 #You Hurt My Feelings (2023)
+      - tt13238346 #Past Lives (2023)
+      - tt18382328 #Earth Mama (2023)
+      - tt24132732 #The Deepest Breath (2023)
+      - tt15210256 #Stephen Curry: Underrated (2023)
+      - tt7130916 #Dicks: The Musical (2023)
+      - tt22041854 #Priscilla (2023)
+      - tt11534720 #All Dirt Roads Taste of Salt (2023)
+      - tt21942866 #Dream Scenario (2023)
+      - tt7160372 #The Zone of Interest (2023)
+      - tt21064584 #The Iron Claw (2023)
+      - tt9573150 #Occupied City (2023)
+      - tt29649688 #My Mercury (2024)
+      - tt29649645 #Open Wide (2024)
+      #- tt11764342 #Jerry Lee Lewis: Trouble in Mind (2022)
+      - tt15078804 #Problemista (2024)
+      - tt19637052 #Love Lies Bleeding (2024)
+      - tt17279496 #Civil War (2024)
+      - tt15574270 #I Saw the TV Glow (2024)
+      - tt29644446 #The Sixth (2024)
+      - tt14682800 #Tuesday (2023)
+      - tt28366692 #Janet Planet (2023)
+      - tt22048412 #MaXXXine (2024)
+      #- tt28479262 #Sing Sing (2023)
+      - tt21905744 #The Front Room (2024)
+      - tt19121796 #Look Into My Eyes (2024)
+      - tt21097228 #A Different Man (2024)
+      - tt28015403 #Heretic (2024)
+      - tt27218960 #Y2K (2024)
+      - tt30057084 #Babygirl (2024)
+    sync_mode: sync
+    summary: 
+      |
+      Films produced by A24.
+      Note: This does NOT include films that A24 has distrubted but not produced themselves. Distrubting and Producing are not the same. 
+      Source: https://en.wikipedia.org/wiki/List_of_A24_films
+
+  Pixar:
+    template: { name: Github, git_url: Collection-Posters/Pixar.png }
+    sort_title: "!B1 Pixar"
+    smart_label: release.desc
+    tmdb_company: 3
+    sync_mode: sync
+    summary: All Pixar Films.
