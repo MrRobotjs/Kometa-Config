@@ -1,0 +1,84 @@
+collections:
+  Hidden Editions:
+    template: { name: Github, git_url: Collection-Posters/Transparent.png }
+    sync_mode: sync
+    sort_title: zzzz Hidden Editions
+    collection_mode: hide_items
+    plex_search:
+      - all: #Films with Director's Cut Hidden
+          title: 
+            - Hellboy
+          edition:
+            - Director's Cut
+      - all: #Films with Extended Cut Hidden
+          title: 
+            - King Kong
+          any:
+            edition:
+              - Blu-ray Extended
+              - Extended
+      - all: #Films with Noir Edition
+          title: 
+            - Logan
+          any:
+            edition:
+              - Blu-ray Noir
+              - Noir
+      - all: #Films with 4K Remaster
+          title: 
+            - Donnie Darko
+          any:
+            edition:
+              - 4KRM
+      - all: #Films with Criterion B&W
+          title: 
+            - Parasite
+          any:
+            edition:
+              - Blu-ray Criterion B&W
+      - all: #Films with Criterion B&W
+          title: 
+            - "Tron: Legacy"
+          any:
+            edition:
+              - Amazon Open Matte
+      - all: #Films with D+/Blu-ray IMAX (for duplicates of existing Blu-rays in library)
+          all:
+            any:
+              title:
+                - The Marvels
+                - Black Widow
+                - Captain Marvel
+                - Doctor Strange
+                - Iron Man
+                - Ant-Man and the Wasp
+                - "Ant-Man and the Wasp: Quantumania"
+                - "Avengers: Infinity War"
+                - "Captain America: Civil War"
+                - Guardians of the Galaxy Vol. 2
+                - "Avengers: Endgame"
+                - Eternals
+                - "Thor: Love and Thunder"
+                - "Thor: Ragnarok"
+          any:
+            edition:
+              - Disney+ IMAX
+              - Blu-ray IMAX
+
+  Show Films:
+    template: { name: Github, git_url: Collection-Posters/Transparent.png }
+    sort_title: zzzz Show Films
+    collection_mode: show_items
+    plex_search:
+      - any:
+          title: 
+            - Bumblebee
+            - The New Mutants
+            - The Wolverine
+      - all:
+          title: 
+            - Logan
+          any:
+            edition.not:
+              - Blu-ray Noir
+              - Noir

@@ -357,6 +357,24 @@ collections:
       edition.isnot: #isnot = exact string / not = contains string
         - Disney+ IMAX
 
+  X-Men:
+    template: { name: Github, git_url: Movies/Posters/X-Men/poster.jpeg }
+    imdb_id:
+      - tt0120903 #X-Men (2000)
+      - tt0290334 #X2: X-Men United (2003)
+      - tt0376994 #X-Men: The Last Stand (2006)
+      - tt0458525 #X-Men Origins: Wolverine (2009)
+      - tt1270798 #X-Men: First Class (2011)
+      - tt1430132 #The Wolverine (2013)
+      - tt1877832 #X-Men: Days of Future Past (2014)
+      - tt3385516 #X-Men: Apocalypse (2016)
+      - tt3315342 #Logan (2017)
+      - tt6565702 #X-Men: Dark Phoenix (2019)
+      - tt4682266 #The New Mutants (2020)
+    sync_mode: sync
+    collection_mode: hide_items
+    summary: All X-Men films.
+
   #King kong:
     #imdb_id:
       #- tt0360717 #King Kong (2005)
