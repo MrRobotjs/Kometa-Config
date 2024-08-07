@@ -143,12 +143,3 @@ collections:
             - Batman
     sync_mode: sync
     summary: Batman animated films.
-
-  Ben 10:
-    template: { name: Github, git_url: Posters/Franchise/Ben-10/poster.jpg }
-    plex_search:
-      - all:
-          title:
-            - Ben 10
-    sync_mode: sync
-    summary: Ben 10 films.

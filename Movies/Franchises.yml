@@ -9,7 +9,6 @@ external_templates:
 collections:
   Star Wars Grindhouse:
     template: { name: Github, git_url: Posters/Franchise/Star-Wars/Star-Wars-Grindhouse/poster.png }
-    collection_mode: hide_items
     plex_search:
       any:
         title: 
@@ -22,7 +21,6 @@ collections:
 
   "Star Wars Harmy's De/Re Specialized":
     template: { name: Github, git_url: Posters/Franchise/Star-Wars/Star-Wars-Harmy's-DeRe-Specialized/poster.png }
-    collection_mode: hide_items
     plex_search:
       any:
         title: 
@@ -42,7 +40,6 @@ collections:
 
   Star Wars:
     template: { name: Github, git_url: Posters/Franchise/Star-Wars/poster.png }
-    collection_mode: hide_items
     collection_order: release.desc
     plex_search:
       any:
@@ -62,7 +59,6 @@ collections:
 
   The Hobbit:
     template: { name: Github, git_url: Posters/Franchise/Middle-Earth/The-Hobbit/poster.png }
-    collection_mode: hide_items
     imdb_id: 
       - tt0903624 #The Hobbit: An Unexpected Journey
       - tt1170358 #The Hobbit: The Desolation of Smaug
@@ -70,7 +66,6 @@ collections:
 
   The Lord of the Rings:
     template: { name: Github, git_url: Posters/Franchise/Middle-Earth/The-Lord-of-The-Rings/poster.png }
-    collection_mode: hide_items
     imdb_id:
       - tt0077869 #The Lord of the Rings (Animation)
       - tt0120737 #The Lord of the Rings: The Fellowship of the Ring
@@ -91,7 +86,7 @@ collections:
 
   Cars:
     template: { name: Github, git_url: Posters/Franchise/Cars/poster.jpeg }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt0317219 #Cars
       - tt1216475 #Cars 2
@@ -99,7 +94,7 @@ collections:
 
   Harry Potter:
     template: { name: Github, git_url: Posters/Franchise/Harry-Potter/poster.jpeg }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt0241527 #Harry Potter and the Sorcerer's Stone
       - tt0295297 #Harry Potter and the Chamber of Secrets
@@ -112,7 +107,7 @@ collections:
   
   Digimon:
     template: { name: Github, git_url: Posters/Franchise/Digimon/poster.png }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt0259974 #Digimon: The Movie
       - tt1291055 #Digimon Adventure 02: Hurricane Touchdown!! The Golden Digimentals
@@ -129,7 +124,7 @@ collections:
 
   Neon Genesis Evangelion:
     template: { name: Github, git_url: Posters/Franchise/Neon-Genesis-Evangelion/poster.png }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt0169858 #Neon Genesis Evangelion: The End of Evangelion
       - tt0169880 #Neon Genesis Evangelion: Death & Rebirth
@@ -141,7 +136,7 @@ collections:
 
   Spider-Man:
     template: { name: Github, git_url: Posters/Franchise/Spider-Man/poster.png }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt0145487 #Spider-Man
       - tt0316654 #Spider-Man 2
@@ -162,7 +157,7 @@ collections:
 
   The Matrix:
     template: { name: Github, git_url: Posters/Franchise/The-Matrix/poster.png }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt0133093 #The Matrix
       - tt0234215 #The Matrix Reloaded
@@ -172,7 +167,7 @@ collections:
 
   Jackass:
     template: { name: Github, git_url: Posters/Franchise/Jackass/poster.jpg }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt0322802 #Jackass: The Movie
       - tt0493430 #Jackass Number Two
@@ -185,7 +180,7 @@ collections:
 
   John Wick:
     template: { name: Github, git_url: Posters/Franchise/John-Wick/poster.jpeg }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt2911666 #John Wick
       - tt4425200 #John Wick 2
@@ -194,7 +189,7 @@ collections:
 
   Open Season:
     template: { name: Github, git_url: Posters/Franchise/Open-Season/poster.png }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt0400717 #Open Season
       - tt1107365 #Open Season 2
@@ -203,7 +198,7 @@ collections:
 
   The Twilight Saga:
     template: { name: Github, git_url: Posters/Franchise/Twilight/poster.png }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt1099212 #Twilight
       - tt1259571 #The Twilight Saga: New Moon
@@ -213,7 +208,7 @@ collections:
 
   Godzilla:
     #template: { name: Github, git_url: Posters/Franchise/Twilight/poster.png }
-    collection_mode: hide_items
+    collection_order: release.desc
     imdb_id:
       - tt0831387 #Godzilla (2014)
       - tt5034838 #Godzilla vs. Kong
@@ -222,6 +217,7 @@ collections:
 
   Hellboy:
     template: { name: Github, git_url: Posters/Franchise/Hellboy/poster.png }
+    collection_order: release.desc
     imdb_id:
       - tt0167190 #Hellboy (2004)
       - tt0411477 #Hellboy II: The Golden Army (2008)
@@ -232,6 +228,7 @@ collections:
 
   Bad Boys:
     template: { name: Github, git_url: Posters/Franchise/Bad-Boys/poster.png }
+    collection_order: release.desc
     imdb_id:
       - tt0112442 #Bad Boys (1995)
       - tt0172156 #Bad Boys 2 (2003)
@@ -240,6 +237,7 @@ collections:
 
   Transformers:
     template: { name: Github, git_url: Posters/Franchise/Transformers/poster.jpg }
+    collection_order: release.desc
     imdb_id:
       - tt0418279 #Transformers (2007)
       - tt1055369 #Transformers: Revenge of the Fallen (2009)
@@ -251,6 +249,7 @@ collections:
 
   Terminator:
     template: { name: Github, git_url: Posters/Franchise/The-Terminator/poster.png }
+    collection_order: release.desc
     imdb_id:
       - tt0088247 #The Terminator (1984)
       - tt0103064 #Terminator 2: Judgment Day (1991)
@@ -261,6 +260,7 @@ collections:
 
   Scary Movie:
     template: { name: Github, git_url: Posters/Franchise/Scary-Movie/poster.png }
+    collection_order: release.desc
     imdb_id:
       - tt0175142 #Scary Movie (2000)
       - tt0257106 #Scary Movie 2 (2001)
@@ -270,6 +270,7 @@ collections:
 
   Shrek:
     template: { name: Github, git_url: Posters/Franchise/Shrek/poster.png }
+    collection_order: release.desc
     imdb_id:
       - tt0126029 #Shrek (2001)
       - tt0298148 #Shrek (2004)
@@ -278,6 +279,7 @@ collections:
 
   Toy Story:
     template: { name: Github, git_url: Posters/Franchise/Toy-Story/poster.png }
+    collection_order: release.desc
     imdb_id:
       - tt0114709 #Toy Story (1995)
       - tt0120363 #Toy Story 2 (1999)
@@ -286,6 +288,7 @@ collections:
 
   Step Up:
     template: { name: Github, git_url: Posters/Franchise/Step-Up/poster.png }
+    collection_order: release.desc
     imdb_id:
       - tt0462590 #Step Up (2006)
       - tt1023481 #Step Up 2: The Streets (2008)
@@ -293,36 +296,9 @@ collections:
       - tt1800741 #Step Up Revolution (2012)
       - tt2626350 #Step Up All In (2014)
 
-  Studio Ghibli:
-    template: { name: Github, git_url: Posters/Franchise/Studio-Ghibli/poster.png }
-    smart_label: release.asc
-    imdb_id:
-      - tt0092067 #Castle in the Sky (1986)
-      - tt12441478 #Earwig and the Witch (2020)
-      - tt1798188 #From Up on Poppy Hill (2011)
-      - tt0095327 #Grave of the Fireflies (1988)
-      - tt0347149 #Howl's Moving Castle (2004)
-      - tt0097814 #Kiki's Delivery Service (1989)
-      - tt0096283 #My Neighbor Totoro (1988)
-      - tt0206013 #My Neighbors the Yamadas (1999)
-      - tt0108432 #Ocean Waves (1993)
-      - tt0102587 #Only Yesterday (1991)
-      - tt0110008 #Pom Poko (1994)
-      - tt0876563 #Ponyo (2008)
-      - tt0104652 #Porco Rosso (1992)
-      - tt0119698 #Princess Mononoke (1997)
-      - tt0245429 #Spirited Away (2001)
-      - tt0495596 #Tales from Earthsea (2006)
-      - tt0347618 #The Cat Returns (2002)
-      - tt1568921 #The Secret World of Arrietty (2010)
-      - tt2576852 #The Tale of The Princess Kaguya (2013)
-      - tt2013293 #The Wind Rises (2013)
-      - tt3398268 #When Marnie Was There (2014)
-      - tt0113824 #Whisper of the Heart (1995)
-      - tt6587046 #The Boy and the Heron (2023)
-
   Creed:
     template: { name: Github, git_url: Posters/Franchise/Creed/poster.jpg }
+    collection_order: release.desc
     imdb_id:
       - tt3076658 #Creed (2015)
       - tt6343314 #Creed 2 (2018)
@@ -330,6 +306,7 @@ collections:
 
   Ghostbusters:
     template: { name: Github, git_url: Posters/Franchise/Ghostbusters/poster.png }
+    collection_order: release.desc
     imdb_id:
       - tt0087332 #Ghostbusters (1984)
       - tt0097428 #Ghostbusters 2 (1989)
@@ -339,6 +316,7 @@ collections:
 
   Scream:
     template: { name: Github, git_url: Posters/Franchise/Scream/poster.png }
+    collection_order: release.desc
     imdb_id:
       - tt0117571 #Scream (1996)
       - tt0120082 #Scream 2 (1997)
@@ -348,6 +326,7 @@ collections:
 
   The Avengers:
     template: { name: Github, git_url: Posters/Franchise/The-Avengers/poster.jpg }
+    collection_order: release.desc
     imdb_id:
       - tt0848228 #The Avengers (2012)
       - tt2395427 #Avengers: Age of Ultron (2015)
@@ -359,6 +338,7 @@ collections:
 
   X-Men:
     template: { name: Github, git_url: Posters/Franchise/X-Men/poster.jpeg }
+    collection_order: release.desc
     imdb_id:
       - tt0120903 #X-Men (2000)
       - tt0290334 #X2: X-Men United (2003)
@@ -375,8 +355,38 @@ collections:
       edition.not: #isnot = exact string / not = contains string
         - Noir
     sync_mode: sync
-    collection_mode: hide_items
     summary: All X-Men films.
+
+  Ben 10:
+    template: { name: Github, git_url: Posters/Franchise/Ben-10/poster.jpg }
+    collection_order: release.desc
+    plex_search:
+      - all:
+          title:
+            - Ben 10
+    sync_mode: sync
+    summary: Ben 10 films.
+
+  Ice Age:
+    template: { name: Github, git_url: Posters/Franchise/Ice-Age/poster.jpeg }
+    collection_order: release.desc
+    plex_search:
+      - all:
+          title:
+            - Ice Age
+    sync_mode: sync
+    summary: Ice Age films.
+
+  Indiana Jones:
+    template: { name: Github, git_url: Posters/Franchise/Indiana-Jones/poster.jpeg }
+    collection_order: release.desc
+    plex_search:
+      - any:
+          title:
+            - Indiana Jones
+            - Raiders of the Lost Ark
+    sync_mode: sync
+    summary: Indiana Jones films.
 
   #King kong:
     #imdb_id:

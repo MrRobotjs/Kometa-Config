@@ -108,3 +108,35 @@ collections:
     tmdb_company: 3
     sync_mode: sync
     summary: All Pixar Films.
+
+  Studio Ghibli:
+    template: { name: Github, git_url: Posters/Franchise/Studio-Ghibli/poster.png }
+    smart_label: release.asc
+    tmdb_company: 310342
+    filter:
+      genre: Documentary
+    #imdb_id:
+      #- tt0092067 #Castle in the Sky (1986)
+      #- tt12441478 #Earwig and the Witch (2020)
+      #- tt1798188 #From Up on Poppy Hill (2011)
+      #- tt0095327 #Grave of the Fireflies (1988)
+      #- tt0347149 #Howl's Moving Castle (2004)
+      #- tt0097814 #Kiki's Delivery Service (1989)
+      #- tt0096283 #My Neighbor Totoro (1988)
+      #- tt0206013 #My Neighbors the Yamadas (1999)
+      #- tt0108432 #Ocean Waves (1993)
+      #- tt0102587 #Only Yesterday (1991)
+      #- tt0110008 #Pom Poko (1994)
+      #- tt0876563 #Ponyo (2008)
+      #- tt0104652 #Porco Rosso (1992)
+      #- tt0119698 #Princess Mononoke (1997)
+      #- tt0245429 #Spirited Away (2001)
+      #- tt0495596 #Tales from Earthsea (2006)
+      #- tt0347618 #The Cat Returns (2002)
+      #- tt1568921 #The Secret World of Arrietty (2010)
+      #- tt2576852 #The Tale of The Princess Kaguya (2013)
+      #- tt2013293 #The Wind Rises (2013)
+      #- tt3398268 #When Marnie Was There (2014)
+      #- tt0113824 #Whisper of the Heart (1995)
+      #- tt6587046 #The Boy and the Heron (2023)
+    summary: All Studio Ghibli Films.
