@@ -4,7 +4,7 @@ external_templates:
 
 collections:
   Christmas:
-    template: {name: Holiday, git_url: Collection-Posters/Christmas.png}
+    template: {name: Holiday, git_url: Posters/Collections/Christmas.png}
     trakt_list:
       - https://trakt.tv/users/movistapp/lists/christmas-movies
    #   - https://trakt.tv/users/galacticboy/lists/xmas-sync

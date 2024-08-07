@@ -8,13 +8,13 @@ external_templates:
 
 collections:
   Anime:
-    template: { name: Github, git_url: Collection-Posters/Anime.png }
+    template: { name: Github, git_url: Posters/Collections/Anime.png }
     sort_title: "!A1 Anime"
     smart_label: random
     tmdb_keyword: 210024  #https://www.themoviedb.org/keyword/210024 also accepted
     summary: Traditional Anime films. Mainly focused on animated films from Japan, not ordinary American animated films like Disney.
   Trending:
-    template: { name: Github, git_url: Collection-Posters/Trending.png }
+    template: { name: Github, git_url: Posters/Collections/Trending.png }
     sort_title: "!A5 Trending"
     #smart_label: random
     collection_mode: show_items
@@ -35,7 +35,7 @@ collections:
       Source: https://trakt.tv/movies/trending
 
   Documentaries:
-    template: { name: Github, git_url: Collection-Posters/Documentaries.png }
+    template: { name: Github, git_url: Posters/Collections/Documentaries.png }
     sort_title: "!A6 Documentaries"
     collection_order: release.desc
     plex_search:
@@ -48,7 +48,7 @@ collections:
     summary: Documentary Films.
 
   Kids:
-    template: { name: Github, git_url: Collection-Posters/Kids.png }
+    template: { name: Github, git_url: Posters/Collections/Kids.png }
     sort_title: "!A7 Kids"
     tmdb_keyword: 286758  #https://www.themoviedb.org/keyword/210024 also accepted
     #tmdb_discover:
@@ -62,7 +62,7 @@ collections:
     sync_mode: sync
 
   Editions Dictionary:
-    template: { name: Github, git_url: Collection-Posters/Editions-Dict.png }
+    template: { name: Github, git_url: Posters/Collections/Editions-Dict.png }
     sort_title: "!A8 Editions Dictionary"
     blank_collection: true
     collection_mode: hide
@@ -81,11 +81,11 @@ collections:
       S͟p͟a͟n͟i͟s͟h͟: Usually duplicates of existing films in the library but in Spanish. Why a duplicate? I rather have a superior film in terms of visual and audio in English since it's in my primary language but I do try to have Spanish films for family/friends. May include English but not always.
 
   Marvel Cinematic Universe:
-    template: { name: Github, git_url: Collection-Posters/Marvel-Cinematic-Universe.jpg }
-    sort_title: "!B2 Marvel Cinematic Universe"
+    template: { name: Github, git_url: Posters/Franchise/Marvel-Cinematic-Universe.jpg }
+    #sort_title: "!B2 Marvel Cinematic Universe"
     smart_label: release.desc
     tmdb_list: 84979
-    collection_mode: hide
+    #collection_mode: hide
     filters:
       edition.isnot: #isnot = exact string / not = contains string
         - Disney+ IMAX
@@ -94,11 +94,11 @@ collections:
     summary: Marvel Films that have been confirmed in the Marvel Universe.
 
   DC Extended Universe:
-    template: { name: Github, git_url: Collection-Posters/DCEU.jpg }
-    sort_title: "!B3 DC Extended Universe"
+    template: { name: Github, git_url: Posters/Franchise/DC-Extended-Universe.jpg }
+    #sort_title: "!B3 DC Extended Universe"
     smart_label: release.desc
     tmdb_keyword: 229266
-    collection_mode: hide
+    #collection_mode: hide
     #filters:
       #edition.isnot: #isnot = exact string / not = contains string
         #- Disney+ IMAX
@@ -107,12 +107,24 @@ collections:
     summary: DC films in the DC Universe. Yes even the disappointing 2017 Justice League.
     
   DC Animated Universe:
-    template: { name: Github, git_url: Collection-Posters/DC-Animated-Universe.jpg }
-    sort_title: "!B4 DC Animated Universe"
+    template: { name: Github, git_url: Posters/Franchise/DC-Animated-Universe.jpg }
+    #sort_title: "!B4 DC Animated Universe"
     smart_label: release.desc
     #tmdb_keyword: 253375 #dc animated movie universe
     imdb_list:
       - https://www.imdb.com/list/ls058721118/
-    collection_mode: hide
+    #collection_mode: hide
     sync_mode: sync
     summary: DC films that are animated.
+
+  Batman:
+    #template: { name: Github, git_url: Collection-Posters/DC-Animated-Universe.jpg }
+    #smart_label: release.desc
+    #collection_mode: hide
+    plex_search:
+      all:
+        genre.not: Animation
+        title:
+          - Batman
+    sync_mode: sync
+    summary: Batman films.

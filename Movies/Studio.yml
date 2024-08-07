@@ -8,7 +8,7 @@ external_templates:
 
 collections:
   Disney:
-    template: { name: Github, git_url: Collection-Posters/Walt-Disney.png }
+    template: { name: Github, git_url: Posters/Collections/Walt-Disney.png }
     sort_title: "!A9 Disney"
     smart_label: release.desc
     collection_mode: hide
@@ -20,7 +20,7 @@ collections:
     summary: Disney films. WIP.
 
   A24:
-    template: { name: Github, git_url: Collection-Posters/A24.png }
+    template: { name: Github, git_url: Posters/Collections/A24.png }
     sort_title: "!B1 A24"
     smart_label: release.desc
     sync_to_trakt_list: a24-films-produced
@@ -102,7 +102,7 @@ collections:
       Source: https://en.wikipedia.org/wiki/List_of_A24_films
 
   Pixar:
-    template: { name: Github, git_url: Collection-Posters/Pixar.png }
+    template: { name: Github, git_url: Posters/Collections/Pixar.png }
     sort_title: "!B1 Pixar"
     smart_label: release.desc
     tmdb_company: 3

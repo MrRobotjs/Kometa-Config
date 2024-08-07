@@ -27,8 +27,10 @@ playlists:
     sync_mode: sync
     libraries: Movies, TV Shows
     trakt_list: https://trakt.tv/users/tomfin46/lists/star-wars-the-clone-wars-chronological-episode-order
+    url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/playlist/Star%20Wars%20The%20Clone%20Wars%20(Timeline%20Order).jpg"
   X-Men (Timeline Order):
     sync_to_users: all
     sync_mode: sync
     libraries: Movies, TV Shows
     trakt_list: https://trakt.tv/users/heyitsbea/lists/x-men
+    url_poster: "https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/playlist/X-Men%20(Timeline%20Order).jpg"

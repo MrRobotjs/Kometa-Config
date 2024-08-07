@@ -7,7 +7,7 @@ external_templates:
 
 collections:
   Oscars Winners Awards:
-    template: { name: Github, git_url: Collection-Posters/Oscar-Winners2.png }
+    template: { name: Github, git_url: Posters/Collections/Oscars-Winners.png }
     sort_title: "!A2 Oscar Winners"
     sync_mode: sync
     smart_label: random
@@ -25,7 +25,7 @@ collections:
     summary: Films that have won any Oscar award, either it be an actor, director or the film itself.
 
   Oscars Best Picture Winners:
-    template: { name: Github, git_url: Collection-Posters/Oscars-Best-Picture-1.png }
+    template: { name: Github, git_url: Posters/Collections/Oscars-Best-Picture.png }
     sort_title: "!A3 Oscars Best Picture Winners"
     sync_mode: sync
     smart_label: release.desc
@@ -48,7 +48,7 @@ collections:
     summary: Films that are Oscars Best Picture Winners.
   
   Oscars Best Director Winners:
-    template: { name: Github, git_url: Collection-Posters/Oscars-Best-Director.png }
+    template: { name: Github, git_url: Posters/Collections/Oscars-Best-Director.png }
     sort_title: "!A4 Oscars Best Director Winners"
     sync_mode: sync
     smart_label: release.desc

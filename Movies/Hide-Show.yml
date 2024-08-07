@@ -1,6 +1,10 @@
+external_templates:
+  #- file: config/assets/Movies/Templates.yml
+  - url: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/Movies/Templates.yml
+
 collections:
   Hidden Editions:
-    template: { name: Github, git_url: Collection-Posters/Transparent.png }
+    template: { name: Github, git_url: Posters/Collections/Transparent.png }
     sync_mode: sync
     sort_title: zzzz Hidden Editions
     collection_mode: hide_items
@@ -9,7 +13,7 @@ collections:
           title: 
             - Hellboy
           edition:
-            - Director's Cut
+            - Blu-ray DC
       - all: #Films with Extended Cut Hidden
           title: 
             - King Kong
@@ -66,7 +70,7 @@ collections:
               - Blu-ray IMAX
 
   Show Films:
-    template: { name: Github, git_url: Collection-Posters/Transparent.png }
+    template: { name: Github, git_url: Posters/Collections/Transparent.png }
     sort_title: zzzz Show Films
     collection_mode: show_items
     plex_search:
@@ -74,7 +78,7 @@ collections:
           title: 
             - Bumblebee
             - The New Mutants
-            - The Wolverine
+            - "X-Men Origins: Wolverine"
       - all:
           title: 
             - Logan
