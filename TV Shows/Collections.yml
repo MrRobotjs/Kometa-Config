@@ -8,13 +8,13 @@ templates:
 
 collections:
   Anime:
-    template: { name: Github, git_url: Collection-Posters/Anime.png }
+    template: { name: Github, git_url: Posters/Collections/Anime.png }
     sort_title: "!1 Anime"
     collection_order: random
     collection_mode: show_items
     tmdb_keyword: 210024  #https://www.themoviedb.org/keyword/210024 also accepted
   Trending:
-    template: { name: Github, git_url: Collection-Posters/Trending.png }
+    template: { name: Github, git_url: Posters/Collections/Trending.png }
     sort_title: "!5 Trending"
     collection_mode: show_items
     collection_order: custom
@@ -23,7 +23,7 @@ collections:
       limit: 50
     sync_mode: sync
   Documentaries:
-    template: { name: Github, git_url: Collection-Posters/Documentaries.png }
+    template: { name: Github, git_url: Posters/Collections/Documentaries.png }
     sort_title: "!6 Documentaries"
     collection_order: release.desc
     plex_search:
@@ -34,7 +34,7 @@ collections:
           - Jackass
     sync_mode: sync
   Marvel Cinematic Universe:
-    template: { name: Github, git_url: Collection-Posters/Marvel-Cinematic-Universe.jpg }
+    template: { name: Github, git_url: Posters/Collections/Marvel-Cinematic-Universe.jpg }
     sort_title: "!8 Marvel Cinematic Universe"
     smart_label: release.desc
     collection_mode: show_items
@@ -42,7 +42,7 @@ collections:
     sync_mode: sync
 
   DC Animated Universe:
-    template: { name: Github, git_url: Collection-Posters/DC-Animated-Universe.jpg }
+    template: { name: Github, git_url: Posters/Collections/DC-Animated-Universe.jpg }
     sort_title: "!B4 DC Animated Universe"
     smart_label: release.desc
     #tmdb_keyword: 253375 #dc animated movie universe

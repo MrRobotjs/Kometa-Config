@@ -118,13 +118,37 @@ collections:
     summary: DC films that are animated.
 
   Batman:
-    #template: { name: Github, git_url: Collection-Posters/DC-Animated-Universe.jpg }
+    template: { name: Github, git_url: Posters/Franchise/Batman/poster.jpg }
     #smart_label: release.desc
     #collection_mode: hide
     plex_search:
-      all:
-        genre.not: Animation
-        title:
-          - Batman
+      - all:
+          genre.not: Animation
+          title:
+            - Batman
+      - all:
+          title:
+            - Dark Knight
     sync_mode: sync
     summary: Batman films.
+
+  Batman Animated:
+    template: { name: Github, git_url: Posters/Franchise/Batman-Animated/poster.jpg }
+    #smart_label: release.desc
+    #collection_mode: hide
+    plex_search:
+      - all:
+          genre: Animation
+          title:
+            - Batman
+    sync_mode: sync
+    summary: Batman animated films.
+
+  Ben 10:
+    template: { name: Github, git_url: Posters/Franchise/Ben-10/poster.jpg }
+    plex_search:
+      - all:
+          title:
+            - Ben 10
+    sync_mode: sync
+    summary: Ben 10 films.
