@@ -1,0 +1,18 @@
+################################################
+#        Collections For Anime Library         #
+################################################
+
+templates:
+  Github:
+    url_poster: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/<<git_url>>
+
+collections:
+  Trending:
+    template: { name: Github, git_url: Posters/Collections/Trending.png }
+    sort_title: "!5 Trending"
+    collection_mode: show_items
+    collection_order: custom
+    trakt_chart:
+      chart: trending
+      limit: 50
+    sync_mode: sync

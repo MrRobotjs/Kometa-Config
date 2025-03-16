@@ -1,0 +1,12 @@
+#####################################
+#              Metadata             #
+#####################################
+external_templates:
+  #- file: config/assets/Movies/Templates.yml
+  - url: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/Movies/Templates.yml
+
+metadata:
+  Attack on Titan:
+    match:
+      mapping_id: 267440
+    episode_ordering: tvdb_aired
