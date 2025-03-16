@@ -9,10 +9,8 @@ templates:
 collections:
   Trending:
     template: { name: Github, git_url: Posters/Collections/Trending.png }
-    sort_title: "!5 Trending"
+    sort_title: "!1 Trending"
     collection_mode: show_items
     collection_order: custom
-    trakt_chart:
-      chart: trending
-      limit: 50
+    anilist_trending: 15
     sync_mode: sync

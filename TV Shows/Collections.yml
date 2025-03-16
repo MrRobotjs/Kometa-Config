@@ -7,15 +7,17 @@ templates:
     url_poster: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/<<git_url>>
 
 collections:
-  Anime:
-    template: { name: Github, git_url: Posters/Collections/Anime.png }
-    sort_title: "!1 Anime"
+  Animation:
+    template: { name: Github, git_url: Posters/Collections/Animation.png }
+    sort_title: "!2 Animation"
     collection_order: random
     collection_mode: show_items
-    tmdb_keyword: 210024  #https://www.themoviedb.org/keyword/210024 also accepted
+    plex_search:
+      all:
+        genre: Animation
   Trending:
     template: { name: Github, git_url: Posters/Collections/Trending.png }
-    sort_title: "!5 Trending"
+    sort_title: "!1 Trending"
     collection_mode: show_items
     collection_order: custom
     trakt_chart:
