@@ -14,3 +14,7 @@ collections:
     collection_order: custom
     anilist_trending: 15
     sync_mode: sync
+    summary: 
+      |
+      Anime trending on anilist.co, updated every 20 minutes.
+      Source: https://anilist.co/search/anime/trending
