@@ -1,6 +1,6 @@
-#####################################
+#########################################
 #        Franchises Collections         #
-#####################################
+#########################################
 
 templates:
   Github:
@@ -27,21 +27,3 @@ collections:
     collection_mode: hide
     sync_mode: sync
     summary: DC animated TV Shows.
-
-  Pokémon:
-    template: { name: Github, git_url: Posters/Franchise/Pokemon/poster.jpeg }
-    collection_order: release.desc
-    summary: DC animated TV Shows.
-    plex_search:
-      any:
-        title:
-          - Pokémon
-          - Pokemon
-
-  Dragon Ball:
-    template: { name: Github, git_url: Posters/Franchise/Dragon-Ball/poster.png }
-    collection_order: release.desc
-    sync_mode: sync
-    plex_search:
-      any:
-        title: Dragon Ball

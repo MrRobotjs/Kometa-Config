@@ -1,0 +1,42 @@
+#########################################
+#        Franchises Collections         #
+#########################################
+
+templates:
+  Github:
+    url_poster: https://raw.githubusercontent.com/MrRobotjs/Kometa-Config/main/<<git_url>>
+
+collections:
+  Pokémon:
+    template: { name: Github, git_url: Posters/Franchise/Pokemon/poster.jpeg }
+    collection_order: release.desc
+    summary: DC animated TV Shows.
+    plex_search:
+      any:
+        title:
+          - Pokémon
+          - Pokemon
+
+  Dragon Ball:
+    template: { name: Github, git_url: Posters/Franchise/Dragon-Ball/poster.png }
+    collection_order: release.desc
+    sync_mode: sync
+    plex_search:
+      any:
+        title: Dragon Ball
+
+  Ghost in the Shell:
+    template: { name: Github, git_url: Posters/Franchise/Ghost-in-the-Shell/poster.png }
+    #smart_label: release.desc
+    #collection_mode: hide
+    collection_order: release.desc
+    plex_search:
+      - all:
+          genre: Animation
+          title:
+            - Ghost in the Shell
+    filters:
+      year.not: #isnot = exact string / not = contains string
+        - 2017
+    sync_mode: sync
+    summary: Ghost in the Shell animated films.

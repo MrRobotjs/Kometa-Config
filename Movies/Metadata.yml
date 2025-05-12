@@ -8,7 +8,7 @@ external_templates:
 metadata:
   A New Hope OTD77:
     match:
-      title: "Star Wars: Episode IV - A New Hope"
+      title: "Star Wars"
       alt_title: "A New Hope"
       year: 1977
       edition: D+77 v2.4
@@ -21,10 +21,9 @@ metadata:
       Audio: Muxed in the English stereo (hairy_hen's 70mm 2.0 v3), 5.1 (hairy_hen's 70mm 5.1 v3 DTS-MA) and mono (DTS-MA audio track from 4K77 v1.4) tracks but used ac3 files (converted) instead of the DTS-MA files. Too many people have issues playing the DTS-MA tracks so it's more accommodating this way. The audio in this version is NTSC GOUT synced. Would have preferred it to be theatrically synced but no properly synced audio was available in time for this. Audio from any 4K77 or Despecialized version will work with this project.
       Colour: The original HDR grade took advantage of the wider colour gamut. Since working in SDR, rec.709, HDR grade was tamed. What this means is areas that lacked saturation have been boosted but areas that would have gotten oversaturated with that change have been scaled back. Other colour tweaks were used to make it the best. Colour is - HDR tonemapped with a LUT provided by age - final colour using only curves (sat-vs-sat, luma-vs-sat, hue-vs-sat, and standard RGB curves). Colour is loosely based on a colour correction by DrDre.
       https://forums.thestarwarstrilogy.com/threads/d-77-theatrical-reconstruction-using-disney-v1-x-uhd-br-v2-x.342/
-      PS: Was encoded again from 31.2GB down to 18.6GB by Polybius using Handbrake, settings are in json within same folder.
   A New Hope Despecialized:
     match:
-      title: "Star Wars: Episode IV - A New Hope"
+      title: "Star Wars"
       alt_title: "A New Hope"
       year: 1977
       edition: Despecialized v2.7
@@ -42,7 +41,7 @@ metadata:
       7) Puggo Grande (1977 16mm print transfer)
   A New Hope Respecialized:
     match:
-      title: "Star Wars: Episode IV - A New Hope"
+      title: "Star Wars"
       alt_title: "A New Hope"
       year: 1977
       edition: Respecialized
@@ -62,7 +61,7 @@ metadata:
       https://originaltrilogy.com/topic/Harmys-STAR-WARS-Respecialized-Edition-97-AVCHD-and-MKV-Released/id/16682
   A New Hope 35mm:
     match:
-      title: "Star Wars: Episode IV - A New Hope"
+      title: "Star Wars"
       alt_title: "A New Hope"
       year: 1977
       edition: 35mm
@@ -170,7 +169,7 @@ metadata:
     summary:
       |
       Harmy's Grindhouse 35mm Edition for Return of The Jedi, a high quality scan of the 1983 fade free 35mm LPP print. Special thanks to Poita. This is the original Theatrical version.
-  tt3629520: #Dragon's Heaven
+  "Dragon's Heaven": #Dragon's Heaven
     match:
       title: Dragon's Heaven
       edition: 4K Remaster
@@ -186,7 +185,6 @@ metadata:
       Obviously, the result is not perfect. It isn’t a native 4K scan. There are still some lingering artifacts. A trained eye can always tell. But I hope that it’s tasteful and preserves the incredible artwork in this anime. And that it is instructive/informative to those who wish to get a more “realistic” result out of their upscaling.
   Alita Battle Angel:
     match:
-      mapping_id: tt0437086
       title: "Alita: Battle Angel"
       year: 2019
       edition: Open Matte KK650
@@ -198,7 +196,6 @@ metadata:
       When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.
   "Pokemon the Movie: Mewtwo Strikes Back - Evolution":
     match:
-      mapping_id: tt8856470
       title: "Pokemon the Movie: Mewtwo Strikes Back - Evolution"
       year: 2019
       edition: 98 Fan Edit
@@ -208,13 +205,10 @@ metadata:
       After a scientific experiment leads to the creation of a clone of Mewtwo, he sets out to destroy the world. Ash and his friends then decide to thwart Mewtwo's evil plans.
   "Evangelion: 1.0 You Are (Not) Alone":
     match:
-      mapping_id: tt0923811
-    title: "Evangelion: 1.11 You Are (Not) Alone"
+      title: "Evangelion: 1.11 You Are (Not) Alone"
   "Evangelion: 2.0 You Can (Not) Advance":
     match:
-      mapping_id: tt0860906
-    title: "Evangelion: 2.22 You Can (Not) Advance"
+      title: "Evangelion: 2.22 You Can (Not) Advance"
   "Evangelion: 3.0 You Can (Not) Redo":
     match:
-      mapping_id: tt0860907
-    title: "Evangelion: 3.33 You Can (Not) Redo"
+      title: "Evangelion: 3.33 You Can (Not) Redo"

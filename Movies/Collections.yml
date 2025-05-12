@@ -47,28 +47,71 @@ collections:
     sync_mode: sync
     summary: Documentary Films.
 
+  Comedy:
+    #template: { name: Github, git_url: Posters/Collections/Comedy.png }
+    sort_title: "!A6 Comedy"
+    smart_label: release.desc
+    collection_mode: hide
+    plex_search:
+      all:
+        genre: Comedy
+    filter:
+      genre.not: Horror, Documentary
+      content_rating.not: G, PG
+    sync_mode: sync
+    summary: Comedy Films. G/PG rated Films are filtered out.
+
+  "Stand-Up Comedy":
+    template: { name: Github, git_url: Posters/Collections/Stand-up-Comedy.png }
+    sort_title: "!A6 Comedy Stand-Up"
+    smart_label: release.desc
+    collection_mode: hide
+    tmdb_keyword: 9716, 267509
+    sync_mode: sync
+    summary: Stand-Up Comedy.
+
+  Horror:
+    template: { name: Github, git_url: Posters/Collections/Halloween-Movies.png }
+    sort_title: "!A6 Horror"
+    smart_label: release.desc
+    collection_mode: hide
+    plex_search:
+      all:
+        genre: Horror
+    filter:
+      genre.not: Comedy, Animation, Documentary
+      content_rating.not: G, PG
+    sync_mode: sync
+    summary: Horror Films. G/PG rated Films are filtered out.
+
   Kids:
     template: { name: Github, git_url: Posters/Collections/Kids.png }
     sort_title: "!A7 Kids"
-    tmdb_keyword: 286758  #https://www.themoviedb.org/keyword/210024 also accepted
+    #tmdb_keyword: 286758  #https://www.themoviedb.org/keyword/210024 also accepted
     #tmdb_discover:
-      #certification_country: US
-      #certification: 
-        #- G
-    imdb_search:
-      content_rating:
-        - G
-        - PG
+      #with_genres: 10751
+    smart_filter:
+      all:
+        any:
+          content_rating:
+            - G
+            - PG
+        all:
+          genre:
+            - Animation
+            - Family
     sync_mode: sync
+    summary: Animated Films for kids under the age of 13, G/PG only.
 
   Editions Dictionary:
     template: { name: Github, git_url: Posters/Collections/Editions-Dict.png }
     sort_title: "!A8 Editions Dictionary"
     blank_collection: true
     collection_mode: hide
+    sync_mode: sync
     summary:
       |
-      A list of Editions and what they mean.
+      I use Editions to show where I got the film from, for example, if I got a film from a Blu-ray source then it'll show Blu-ray and the same goes if I got the film from Netflix and any other streaming service. The list below goes more into depth of what each Edition means.
 
       B͟l͟u͟-r͟a͟y͟ R͟e͟m͟u͟x͟: Ripped from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
       B͟l͟u͟-r͟a͟y͟ */I͟M͟A͟X͟/H͟D͟R͟/R͟e͟m͟a͟s͟t͟e͟r͟e͟d͟: Ripped and re-encoded from a Blu-ray source, for the highest quality possible. Typically these will include extra's.
@@ -116,30 +159,3 @@ collections:
     #collection_mode: hide
     sync_mode: sync
     summary: DC films that are animated.
-
-  Batman:
-    template: { name: Github, git_url: Posters/Franchise/Batman/poster.jpg }
-    #smart_label: release.desc
-    #collection_mode: hide
-    plex_search:
-      - all:
-          genre.not: Animation
-          title:
-            - Batman
-      - all:
-          title:
-            - Dark Knight
-    sync_mode: sync
-    summary: Batman films.
-
-  Batman Animated:
-    template: { name: Github, git_url: Posters/Franchise/Batman-Animated/poster.jpg }
-    #smart_label: release.desc
-    #collection_mode: hide
-    plex_search:
-      - all:
-          genre: Animation
-          title:
-            - Batman
-    sync_mode: sync
-    summary: Batman animated films.

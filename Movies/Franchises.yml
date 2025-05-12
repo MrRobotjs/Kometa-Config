@@ -12,9 +12,7 @@ collections:
     plex_search:
       any:
         title: 
-          - "Star Wars: Episode IV - A New Hope"
-          - "Star Wars: Episode V - The Empire Strikes Back"
-          - "Star Wars: Episode VI - Return of the Jedi"
+          - "Star Wars"
     filters:
       edition: 35mm
     summary: Grindhouse releases are renders of film scans with no cleanup and no (or very minimal) color correction or other adjustments that would go into a finished film release so it's shaky with lots of grain, dirt and scratches but for those who enjoy that grindhouse theater experience, it should serve very well. These versions are best experienced with a high quality projector as the films were orignally shown. ALL of these are the ORIGINAL THEATRICAL versions.
@@ -24,9 +22,7 @@ collections:
     plex_search:
       any:
         title: 
-          - "Star Wars: Episode IV - A New Hope"
-          - "Star Wars: Episode V - The Empire Strikes Back"
-          - "Star Wars: Episode VI - Return of the Jedi"
+          - "Star Wars"
     filters:
       edition:
         - Respecialized
@@ -387,6 +383,47 @@ collections:
             - Raiders of the Lost Ark
     sync_mode: sync
     summary: Indiana Jones films.
+
+  Pokémon:
+    template: { name: Github, git_url: Posters/Franchise/Pokemon/poster.jpeg }
+    collection_order: release.desc
+    plex_search:
+      - any:
+          title:
+            - Pokémon
+            - Pokemon
+            - Pikachu
+            - Mewtwo
+            - Meloetta
+
+  Batman:
+    template: { name: Github, git_url: Posters/Franchise/Batman/poster.jpg }
+    #smart_label: release.desc
+    #collection_mode: hide
+    collection_order: release.desc
+    plex_search:
+      - all:
+          genre.not: Animation
+          title:
+            - Batman
+      - all:
+          title:
+            - Dark Knight
+    sync_mode: sync
+    summary: Batman films.
+
+  Batman Animated:
+    template: { name: Github, git_url: Posters/Franchise/Batman-Animated/poster.jpg }
+    #smart_label: release.desc
+    #collection_mode: hide
+    collection_order: release.desc
+    plex_search:
+      - all:
+          genre: Animation
+          title:
+            - Batman
+    sync_mode: sync
+    summary: Batman animated films.
 
   #King kong:
     #imdb_id:

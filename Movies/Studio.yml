@@ -13,7 +13,7 @@ collections:
     smart_label: release.desc
     collection_mode: hide
     tmdb_discover: 
-      with_companies: 6125
+      with_companies: 6125 #Walt Disney Animation Studios
       without_companies: 1556, 420 #Fox, Marvel
       limit: 500
     sync_mode: sync
@@ -108,13 +108,15 @@ collections:
     tmdb_company: 3
     sync_mode: sync
     summary: All Pixar Films.
+    collection_mode: hide
 
   Studio Ghibli:
     template: { name: Github, git_url: Posters/Franchise/Studio-Ghibli/poster.png }
-    smart_label: release.asc
-    tmdb_company: 310342
+    smart_label: release.desc
+    tmdb_company: 10342
     filter:
-      genre: Documentary
+      genre.not: Documentary
+      title.not: Ghost in the Shell
     #imdb_id:
       #- tt0092067 #Castle in the Sky (1986)
       #- tt12441478 #Earwig and the Witch (2020)
@@ -140,3 +142,48 @@ collections:
       #- tt0113824 #Whisper of the Heart (1995)
       #- tt6587046 #The Boy and the Heron (2023)
     summary: All Studio Ghibli Films.
+
+  Batman:
+    template: { name: Github, git_url: Posters/Franchise/Batman/poster.jpg }
+    #smart_label: release.desc
+    #collection_mode: hide
+    collection_order: release.desc
+    plex_search:
+      - all:
+          genre.not: Animation
+          title:
+            - Batman
+      - all:
+          title:
+            - Dark Knight
+    sync_mode: sync
+    summary: Batman films.
+
+  Batman Animated:
+    template: { name: Github, git_url: Posters/Franchise/Batman-Animated/poster.jpg }
+    #smart_label: release.desc
+    #collection_mode: hide
+    collection_order: release.desc
+    plex_search:
+      - all:
+          genre: Animation
+          title:
+            - Batman
+    sync_mode: sync
+    summary: Batman animated films.
+
+  Ghost in the Shell:
+    template: { name: Github, git_url: Posters/Franchise/Ghost-in-the-Shell/poster.png }
+    #smart_label: release.desc
+    #collection_mode: hide
+    collection_order: release.desc
+    plex_search:
+      - all:
+          genre: Animation
+          title:
+            - Ghost in the Shell
+    filters:
+      year.not: #isnot = exact string / not = contains string
+        - 2017
+    sync_mode: sync
+    summary: Ghost in the Shell animated films.

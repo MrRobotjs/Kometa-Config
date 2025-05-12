@@ -15,8 +15,12 @@ collections:
           edition:
             - Blu-ray DC
       - all: #Films with Extended Cut Hidden
-          title: 
-            - King Kong
+          all:
+            any:
+              title: 
+                - King Kong
+                - The Fall Guy
+                - Mallrats
           any:
             edition:
               - Blu-ray Extended
@@ -33,7 +37,7 @@ collections:
             - Donnie Darko
           any:
             edition:
-              - 4KRM
+              - 4K Remaster DC
       - all: #Films with Criterion B&W
           title: 
             - Parasite

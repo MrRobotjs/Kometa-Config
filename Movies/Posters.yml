@@ -10,67 +10,71 @@ metadata:
 # Neon Genesis Evangelion
   "Neon Genesis Evangelion: Death and Rebirth":
     match:
-      mapping_id: tt0169880
+      title: "Neon Genesis Evangelion: Death and Rebirth"
     template: { name: Github, git_url: Posters/Franchise/Neon-Genesis-Evangelion/Neon-Genesis-Evangelion-Death-and-Rebirth-(1997).png }
   "Evangelion: 1.0 You Are (Not) Alone":
     match:
-      mapping_id: tt0923811
+      title: "Evangelion: 1.0 You Are (Not) Alone"
     template: { name: Github, git_url: Posters/Franchise/Neon-Genesis-Evangelion/Evangelion-1.0-You-Are-(Not)-Alone-(2007).png }
   "Evangelion: 2.0 You Can (Not) Advance":
     match:
-      mapping_id: tt0860906
+      title: "Evangelion: 2.0 You Can (Not) Advance"
     template: { name: Github, git_url: Posters/Franchise/Neon-Genesis-Evangelion/Evangelion-2.0-You-Can-(Not)-Advance-(2009).png }
   "Evangelion: 3.0 You Can (Not) Redo":
     match:
-      mapping_id: tt0860907
+      title: "Evangelion: 3.0 You Can (Not) Redo"
     template: { name: Github, git_url: Posters/Franchise/Neon-Genesis-Evangelion/Evangelion-3.0-You-Can-(Not)-Redo-(2012).png }
   "Evangelion: 3.0+1.0 Thrice Upon a Time":
     match:
-      mapping_id: tt2458948
+      title: "Evangelion: 3.0+1.0 Thrice Upon a Time"
     template: { name: Github, git_url: Posters/Franchise/Neon-Genesis-Evangelion/Evangelion-3.0+1.0-Thrice-Upon-a-Time-(2021).png }
 # Lord of the Rings
   "The Lord of the Rings: The Fellowship of the Ring":
     match:
-      mapping_id: tt0120737
+      title: "The Lord of the Rings: The Fellowship of the Ring"
     template: { name: Github, git_url: Posters/Franchise/Middle-Earth/The-Lord-of-The-Rings/The-Lord-of-the-Rings-The-Fellowship-of-the-Ring-(2001).png }
   "The Lord of the Rings: The Return of the King":
     match:
-      mapping_id: tt0167260
+      title: "The Lord of the Rings: The Return of the King"
     template: { name: Github, git_url: Posters/Franchise/Middle-Earth/The-Lord-of-The-Rings/The-Lord-of-the-Rings-The-Return-of-the-King-(2003).png }
 # Hellboy
   Hellboy (2004):
     match:
-      mapping_id: tt0167190
+      title: Hellboy
+      year: 2004
     template: { name: Github, git_url: Posters/Franchise/Hellboy/Hellboy-(2004).jpeg }
   Hellboy II:
     match:
-      mapping_id: tt0411477
+      title: "Hellboy II: The Golden Army"
     template: { name: Github, git_url: Posters/Franchise/Hellboy/Hellboy-II-The-Golden-Army-(2008).jpeg }
   Hellboy (2019):
     match:
-      mapping_id: tt2274648
+      title: Hellboy
+      year: 2019
     template: { name: Github, git_url: Posters/Franchise/Hellboy/Hellboy-(2019).jpeg }
 # King Kong
   King Kong (2005):
     match:
-      mapping_id: tt0360717
-    template: { name: Github, git_url: Posters/Franchise/King-Kong-(2005).jpg }
+      title: King Kong
+      year: 2005
+    template: { name: Github, git_url: Posters/Films/King-Kong-(2005).jpg }
   "Kong: Skull Island (2017)":
     match:
-      mapping_id: tt3731562
-    template: { name: Github, git_url: Posters/Franchise/Kong-Skull-Island-(2017).png }
+      title: "Kong: Skull Island"
+    template: { name: Github, git_url: Posters/Films/Kong-Skull-Island-(2017).png }
 # Avatar
   Avatar (2009):
     match:
-      mapping_id: tt0499549
-    template: { name: Github, git_url: Posters/Franchise/Avatar-(2009).png }
+      title: Avatar
+      year: 2009
+    template: { name: Github, git_url: Posters/Films/Avatar-(2009).png }
   "Avatar: The Way of Water (2022)":
     match:
-      mapping_id: tt1630029
-    template: { name: Github, git_url: Posters/Franchise/Avatar-The-Way-of-Water-(2022).png }
+      title: "Avatar: The Way of Water"
+    template: { name: Github, git_url: Posters/Films/Avatar-The-Way-of-Water-(2022).png }
 # Logan
   Logan (2017):
     match:
-      mapping_id: tt3315342
+      title: Logan
       edition: Blu-ray Noir
-    template: { name: Github, git_url: Posters/Franchise/Logan-(Noir)-(2017).jpg }
+    template: { name: Github, git_url: Posters/Films/Logan-(Noir)-(2017).jpg }

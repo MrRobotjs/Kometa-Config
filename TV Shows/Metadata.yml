@@ -8,5 +8,5 @@ external_templates:
 metadata:
   Attack on Titan:
     match:
-      mapping_id: 267440
+      title: Attack on Titan
     episode_ordering: tvdb_aired
